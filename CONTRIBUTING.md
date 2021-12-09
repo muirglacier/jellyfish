@@ -94,7 +94,7 @@ TODO comments should usually include the author's github username in parentheses
 by [GitHub releases](https://github.com/muirglacier/jellyfish/releases) with connected workflows. On
 release `types: [ published ]`, GitHub Action will automatically build all packages in this repo and publish it into
 npm. All packages in this mono-repo will require `"peerDependencies": "defichain"` this setup ensures all
-subsequent `@defichain/*` package uses the same version.
+subsequent `@muirglacier/*` package uses the same version.
 
 For packages with accompanying docker images, they are published automatically to GitHub Container Registry
 (ghcr.io/defich). When a new [GitHub releases](https://github.com/DeFiCh/whale/releases) is triggered, GitHub Action

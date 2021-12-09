@@ -1,4 +1,4 @@
-import { WhaleApiClient } from '@defichain/whale-api-client'
+import { WhaleApiClient } from '@muirglacier/whale-api-client'
 import { useState } from 'react'
 
 const api = new WhaleApiClient({

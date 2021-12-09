@@ -58,15 +58,15 @@ access-control-allow-origin: *
 ### JS/TS Library
 
 A full mapped JavaScript library
-[@defichain/whale-api-client](https://www.npmjs.com/package/@defichain/whale-api-client) with rich TypeScript
+[@muirglacier/whale-api-client](https://www.npmjs.com/package/@muirglacier/whale-api-client) with rich TypeScript
 definitions is provided for each release.
 
 ```shell
-npm i @defichain/whale-api-client
+npm i @muirglacier/whale-api-client
 ```
 
 ```ts
-import { WhaleApiClient } from '@defichain/whale-api-client'
+import { WhaleApiClient } from '@muirglacier/whale-api-client'
 
 const client = new WhaleApiClient({
   url: 'https://ocean.defichain.com',
@@ -116,7 +116,7 @@ GET https://ocean.defichain.com/v0/mainnet/tokens?next=138&size=100
 
 When "page" is empty or undefined, it indicates there is no more item to query.
 
-#### Pagination via JavaScript ([@defichain/whale-api-client](https://www.npmjs.com/package/@defichain/whale-api-client))
+#### Pagination via JavaScript ([@muirglacier/whale-api-client](https://www.npmjs.com/package/@muirglacier/whale-api-client))
 
 ```javascript
 const firstPage = await api.address.listTransaction('address', 30)
