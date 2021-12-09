@@ -3,9 +3,9 @@ module.exports = {
   testRegex: '((\\.|/)(e2e|test|spec))\\.[jt]sx?$',
   testSequencer: require.resolve('./jest.sequencer'),
   moduleNameMapper: {
-    '@defichain/jellyfish-(.*)': '<rootDir>/packages/jellyfish-$1/src',
-    '@defichain/testcontainers': '<rootDir>/packages/testcontainers/src',
-    '@defichain/testing': '<rootDir>/packages/testing/src'
+    '@muirglacier/jellyfish-(.*)': '<rootDir>/packages/jellyfish-$1/src',
+    '@muirglacier/testcontainers': '<rootDir>/packages/testcontainers/src',
+    '@muirglacier/testing': '<rootDir>/packages/testing/src'
   },
   verbose: true,
   clearMocks: true,

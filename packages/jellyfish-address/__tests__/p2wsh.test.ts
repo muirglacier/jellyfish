@@ -1,5 +1,5 @@
-import { MainNet, RegTest, TestNet } from '@defichain/jellyfish-network'
-import { OP_CODES } from '@defichain/jellyfish-transaction'
+import { MainNet, RegTest, TestNet } from '@muirglacier/jellyfish-network'
+import { OP_CODES } from '@muirglacier/jellyfish-transaction'
 import { DeFiAddress, P2WSH } from '../src'
 
 describe('P2WSH', () => {

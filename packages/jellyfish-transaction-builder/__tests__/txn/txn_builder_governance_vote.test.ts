@@ -1,13 +1,13 @@
-import { DeFiDRpcError, GenesisKeys, StartOptions } from '@defichain/testcontainers'
-import { Testing } from '@defichain/jellyfish-testing'
+import { DeFiDRpcError, GenesisKeys, StartOptions } from '@muirglacier/testcontainers'
+import { Testing } from '@muirglacier/jellyfish-testing'
 import { getProviders, MockProviders } from '../provider.mock'
 import { P2WPKHTransactionBuilder } from '../../src'
 import { calculateTxid, fundEllipticPair, sendTransaction } from '../test.utils'
-import { WIF } from '@defichain/jellyfish-crypto'
+import { WIF } from '@muirglacier/jellyfish-crypto'
 import BigNumber from 'bignumber.js'
 import { GovernanceMasterNodeRegTestContainer } from '../../../jellyfish-api-core/__tests__/category/governance/governance_container'
-import { OP_CODES, Vote } from '@defichain/jellyfish-transaction'
-import { RegTest } from '@defichain/jellyfish-network'
+import { OP_CODES, Vote } from '@muirglacier/jellyfish-transaction'
+import { RegTest } from '@muirglacier/jellyfish-network'
 
 class CustomOperatorGovernanceMasterNodeRegTestContainer extends GovernanceMasterNodeRegTestContainer {
   protected getCmd (opts: StartOptions): string[] {

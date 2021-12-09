@@ -1,6 +1,6 @@
-import { WalletHdNodeProvider } from '@defichain/jellyfish-wallet'
+import { WalletHdNodeProvider } from '@muirglacier/jellyfish-wallet'
 import * as bip32 from 'bip32'
-import { Bip32Options, MnemonicHdNode, MnemonicHdNodeProvider } from '@defichain/jellyfish-wallet-mnemonic'
+import { Bip32Options, MnemonicHdNode, MnemonicHdNodeProvider } from '@muirglacier/jellyfish-wallet-mnemonic'
 import { PrivateKeyEncryption } from './encryption'
 
 /**

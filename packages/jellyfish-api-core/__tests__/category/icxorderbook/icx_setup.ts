@@ -1,4 +1,4 @@
-import { BigNumber } from '@defichain/jellyfish-api-core'
+import { BigNumber } from '@muirglacier/jellyfish-api-core'
 import {
   ExtHTLC,
   HTLC,
@@ -15,8 +15,8 @@ import {
   ICXOrderInfo,
   ICXOrderStatus
 } from '../../../src/category/icxorderbook'
-import { MasterNodeRegTestContainer } from '@defichain/testcontainers'
-import { accountToAccount, createToken, mintTokens } from '@defichain/testing'
+import { MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
+import { accountToAccount, createToken, mintTokens } from '@muirglacier/testing'
 import { ContainerAdapterClient } from '../../container_adapter_client'
 
 // globals

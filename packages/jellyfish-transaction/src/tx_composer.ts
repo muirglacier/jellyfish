@@ -1,9 +1,9 @@
 import BigNumber from 'bignumber.js'
 import { SmartBuffer } from 'smart-buffer'
-import { BufferComposer, ComposableBuffer, readVarUInt, writeVarUInt } from '@defichain/jellyfish-buffer'
+import { BufferComposer, ComposableBuffer, readVarUInt, writeVarUInt } from '@muirglacier/jellyfish-buffer'
 import { Script, Transaction, TransactionSegWit, Vin, Vout, Witness, WitnessScript } from './tx'
 import { OP_CODES, OPCode } from './script'
-import { dSHA256 } from '@defichain/jellyfish-crypto'
+import { dSHA256 } from '@muirglacier/jellyfish-crypto'
 
 /**
  * USE CTransaction AT YOUR OWN RISK.

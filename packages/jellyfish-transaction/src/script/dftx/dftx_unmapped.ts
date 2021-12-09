@@ -1,5 +1,5 @@
 import { SmartBuffer } from 'smart-buffer'
-import { BufferComposer, ComposableBuffer } from '@defichain/jellyfish-buffer'
+import { BufferComposer, ComposableBuffer } from '@muirglacier/jellyfish-buffer'
 
 /**
  * Unmapped DeFi OP that is valid but don't have a composer for it yet.

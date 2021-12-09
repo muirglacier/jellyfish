@@ -1,12 +1,12 @@
-import { DeFiDRpcError, GenesisKeys } from '@defichain/testcontainers'
+import { DeFiDRpcError, GenesisKeys } from '@muirglacier/testcontainers'
 import { getProviders, MockProviders } from '../provider.mock'
 import { P2WPKHTransactionBuilder } from '../../src'
 import { fundEllipticPair, sendTransaction } from '../test.utils'
-import { WIF } from '@defichain/jellyfish-crypto'
+import { WIF } from '@muirglacier/jellyfish-crypto'
 import BigNumber from 'bignumber.js'
 import { LoanMasterNodeRegTestContainer } from './loan_container'
-import { Testing } from '@defichain/jellyfish-testing'
-import { RegTest } from '@defichain/jellyfish-network'
+import { Testing } from '@muirglacier/jellyfish-testing'
+import { RegTest } from '@muirglacier/jellyfish-network'
 
 describe('loan.destroyLoanScheme()', () => {
   const container = new LoanMasterNodeRegTestContainer()

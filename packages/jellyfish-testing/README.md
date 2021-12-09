@@ -1,7 +1,7 @@
-# @defichain/jellyfish-testing
+# @muirglacier/jellyfish-testing
 
-This package introduces a centralized testing framework for the jellyfish replacing the existing `@defichain/testing`.
-All methods within `@defichain/testing` have thus been deprecated.
+This package introduces a centralized testing framework for the jellyfish replacing the existing `@muirglacier/testing`.
+All methods within `@muirglacier/testing` have thus been deprecated.
 
 Testing is an essential part of any serious quality software developer work. This package provides many abstractions for
 various commonly used setup patterns for the DeFi Blockchain. This keeps your testing setup DRY for repeated tests.
@@ -22,6 +22,6 @@ testing.poolpair    // for poolpair setup with reasonable defaults
 
 ## Cyclic dependencies
 
-`@defichain/jellyfish-testing` relies on other jellyfish dependencies, they are cyclic dependant. However, within this
+`@muirglacier/jellyfish-testing` relies on other jellyfish dependencies, they are cyclic dependant. However, within this
 mono-repo, we don't need to declare `"devDependencies"` as they are mapped in `tsconfig.base.json`. This configuration
 allows any packages within `jellyfish-*` to rely on `jellyfish-testing` without causing cyclic dependencies errors.

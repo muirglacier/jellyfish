@@ -1,6 +1,6 @@
-import { OP_CODES, Script } from '@defichain/jellyfish-transaction'
-import { AddressType, DecodedAddress, fromAddress, fromScript } from '@defichain/jellyfish-address'
-import { NetworkName } from '@defichain/jellyfish-network'
+import { OP_CODES, Script } from '@muirglacier/jellyfish-transaction'
+import { AddressType, DecodedAddress, fromAddress, fromScript } from '@muirglacier/jellyfish-address'
+import { NetworkName } from '@muirglacier/jellyfish-network'
 import { fromScriptP2WSH } from '../../src/script/P2WSH'
 
 it('should convert from Script/Address', () => {

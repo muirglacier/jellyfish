@@ -1,12 +1,12 @@
-import { MasterNodeRegTestContainer, GenesisKeys } from '@defichain/testcontainers'
+import { MasterNodeRegTestContainer, GenesisKeys } from '@muirglacier/testcontainers'
 import { getProviders, MockProviders } from '../provider.mock'
 import { P2WPKHTransactionBuilder } from '../../src'
-import { WIF } from '@defichain/jellyfish-crypto'
+import { WIF } from '@muirglacier/jellyfish-crypto'
 import { fundEllipticPair, sendTransaction } from '../test.utils'
 import BigNumber from 'bignumber.js'
-import { OP_CODES, ICXCloseOffer } from '@defichain/jellyfish-transaction'
-import { Testing } from '@defichain/jellyfish-testing'
-import { RegTest } from '@defichain/jellyfish-network'
+import { OP_CODES, ICXCloseOffer } from '@muirglacier/jellyfish-transaction'
+import { Testing } from '@muirglacier/jellyfish-testing'
+import { RegTest } from '@muirglacier/jellyfish-network'
 
 describe('close ICX offer', () => {
   const testing = Testing.create(new MasterNodeRegTestContainer())

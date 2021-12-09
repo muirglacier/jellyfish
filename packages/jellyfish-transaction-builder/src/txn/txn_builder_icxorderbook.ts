@@ -9,7 +9,7 @@ import {
   ICXSubmitDFCHTLC,
   ICXSubmitEXTHTLC,
   ICXClaimDFCHTLC
-} from '@defichain/jellyfish-transaction'
+} from '@muirglacier/jellyfish-transaction'
 import { P2WPKHTxnBuilder } from './txn_builder'
 import { TxnBuilderError, TxnBuilderErrorType } from './txn_builder_error'
 

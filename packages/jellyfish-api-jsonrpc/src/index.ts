@@ -1,7 +1,7 @@
-import { ApiClient, ClientApiError, JellyfishJSON, Precision, RpcApiError } from '@defichain/jellyfish-api-core'
+import { ApiClient, ClientApiError, JellyfishJSON, Precision, RpcApiError } from '@muirglacier/jellyfish-api-core'
 import fetch from 'cross-fetch'
 import AbortController from 'abort-controller'
-import { PrecisionPath } from '@defichain/jellyfish-json'
+import { PrecisionPath } from '@muirglacier/jellyfish-json'
 
 /**
  * ClientOptions for JsonRpc

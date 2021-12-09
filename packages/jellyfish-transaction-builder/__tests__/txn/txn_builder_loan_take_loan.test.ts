@@ -1,15 +1,15 @@
-import { DeFiDRpcError, GenesisKeys } from '@defichain/testcontainers'
+import { DeFiDRpcError, GenesisKeys } from '@muirglacier/testcontainers'
 import { getProviders, MockProviders } from '../provider.mock'
 import { P2WPKHTransactionBuilder } from '../../src'
 import { fundEllipticPair, sendTransaction } from '../test.utils'
-import { WIF } from '@defichain/jellyfish-crypto'
+import { WIF } from '@muirglacier/jellyfish-crypto'
 import BigNumber from 'bignumber.js'
 import { LoanMasterNodeRegTestContainer } from './loan_container'
-import { TestingGroup } from '@defichain/jellyfish-testing'
-import { RegTest } from '@defichain/jellyfish-network'
-import { P2WPKH } from '@defichain/jellyfish-address'
-import { VaultActive } from '@defichain/jellyfish-api-core/src/category/loan'
-import { Script } from '@defichain/jellyfish-transaction'
+import { TestingGroup } from '@muirglacier/jellyfish-testing'
+import { RegTest } from '@muirglacier/jellyfish-network'
+import { P2WPKH } from '@muirglacier/jellyfish-address'
+import { VaultActive } from '@muirglacier/jellyfish-api-core/src/category/loan'
+import { Script } from '@muirglacier/jellyfish-transaction'
 
 const tGroup = TestingGroup.create(2, i => new LoanMasterNodeRegTestContainer(GenesisKeys[i]))
 const alice = tGroup.get(0)

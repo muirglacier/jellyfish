@@ -1,9 +1,9 @@
-import { MasterNodeRegTestContainer } from '@defichain/testcontainers'
-import { Testing } from '@defichain/jellyfish-testing'
-import { CBlock } from '@defichain/jellyfish-block'
+import { MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
+import { Testing } from '@muirglacier/jellyfish-testing'
+import { CBlock } from '@muirglacier/jellyfish-block'
 import { SmartBuffer } from 'smart-buffer'
 import BigNumber from 'bignumber.js'
-import { OP_CODES } from '@defichain/jellyfish-transaction'
+import { OP_CODES } from '@muirglacier/jellyfish-transaction'
 
 describe('Block', () => {
   const testing = Testing.create(new MasterNodeRegTestContainer())

@@ -1,5 +1,5 @@
-import { Script } from '@defichain/jellyfish-transaction'
-import { Network } from '@defichain/jellyfish-network'
+import { Script } from '@muirglacier/jellyfish-transaction'
+import { Network } from '@muirglacier/jellyfish-network'
 import { Bech32Address } from '../src'
 
 class DummyBech32Address extends Bech32Address {

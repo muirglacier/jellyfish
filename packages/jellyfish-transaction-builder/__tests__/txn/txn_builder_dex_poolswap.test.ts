@@ -1,5 +1,5 @@
 import BigNumber from 'bignumber.js'
-import { DeFiDRpcError, MasterNodeRegTestContainer } from '@defichain/testcontainers'
+import { DeFiDRpcError, MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
 import {
   addPoolLiquidity,
   createPoolPair,
@@ -7,12 +7,12 @@ import {
   mintTokens,
   sendTokensToAddress,
   utxosToAccount
-} from '@defichain/testing'
+} from '@muirglacier/testing'
 import { getProviders, MockProviders } from '../provider.mock'
 import { P2WPKHTransactionBuilder } from '../../src'
 import { fundEllipticPair, sendTransaction } from '../test.utils'
-import { JsonRpcClient } from '@defichain/jellyfish-api-jsonrpc'
-import { RegTest } from '@defichain/jellyfish-network'
+import { JsonRpcClient } from '@muirglacier/jellyfish-api-jsonrpc'
+import { RegTest } from '@muirglacier/jellyfish-network'
 
 const container = new MasterNodeRegTestContainer()
 let providers: MockProviders

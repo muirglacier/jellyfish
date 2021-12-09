@@ -3,7 +3,7 @@ import { OP_CODES } from '../../../../src/script'
 import { toBuffer, toOPCodes } from '../../../../src/script/_buffer'
 import { OP_DEFI_TX } from '../../../../src/script/dftx'
 import { CICXSubmitEXTHTLC, ICXSubmitEXTHTLC } from '../../../../src/script/dftx/dftx_icxorderbook'
-import { BigNumber } from '@defichain/jellyfish-json'
+import { BigNumber } from '@muirglacier/jellyfish-json'
 
 it('should bi-directional buffer-object-buffer', () => {
   const fixtures = [

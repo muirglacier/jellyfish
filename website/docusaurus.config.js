@@ -105,7 +105,7 @@ module.exports = {
             },
             {
               label: 'MIT License',
-              to: 'https://github.com/DeFiCh/jellyfish/blob/main/LICENSE'
+              to: 'https://github.com/muirglacier/jellyfish/blob/main/LICENSE'
             }
           ]
         },
@@ -130,7 +130,7 @@ module.exports = {
         docs: {
           path: '../docs/ecosystem',
           routeBasePath: 'ecosystem',
-          editUrl: 'https://github.com/DeFiCh/jellyfish/tree/main/website',
+          editUrl: 'https://github.com/muirglacier/jellyfish/tree/main/website',
           sidebarCollapsed: false,
         },
         theme: {
@@ -146,7 +146,7 @@ module.exports = {
         id: 'node',
         path: '../docs/node',
         routeBasePath: 'node',
-        editUrl: 'https://github.com/DeFiCh/jellyfish/tree/main/website',
+        editUrl: 'https://github.com/muirglacier/jellyfish/tree/main/website',
         sidebarCollapsed: false,
       },
     ],
@@ -156,7 +156,7 @@ module.exports = {
         id: 'ocean',
         path: '../docs/ocean',
         routeBasePath: 'ocean',
-        editUrl: 'https://github.com/DeFiCh/jellyfish/tree/main/website',
+        editUrl: 'https://github.com/muirglacier/jellyfish/tree/main/website',
         sidebarCollapsed: false,
       },
     ],
@@ -166,7 +166,7 @@ module.exports = {
         id: 'testing',
         path: '../docs/testing',
         routeBasePath: 'testing',
-        editUrl: 'https://github.com/DeFiCh/jellyfish/tree/main/website',
+        editUrl: 'https://github.com/muirglacier/jellyfish/tree/main/website',
         sidebarCollapsed: false,
       },
     ],

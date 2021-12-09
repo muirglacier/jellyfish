@@ -1,4 +1,4 @@
-import { MasterNodeRegTestContainer } from '@defichain/testcontainers'
+import { MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
 import { ContainerAdapterClient } from '../../container_adapter_client'
 import { InWalletTransactionCategory } from '../../../src/category/wallet'
 import BigNumber from 'bignumber.js'

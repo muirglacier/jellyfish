@@ -1,7 +1,7 @@
 import BigNumber from 'bignumber.js'
-import { Testing } from '@defichain/jellyfish-testing'
+import { Testing } from '@muirglacier/jellyfish-testing'
 import { GetLoanInfoResult } from 'packages/jellyfish-api-core/src/category/loan'
-import { MasterNodeRegTestContainer } from '@defichain/testcontainers'
+import { MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
 
 const startingData: GetLoanInfoResult = {
   currentPriceBlock: new BigNumber(102),

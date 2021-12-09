@@ -1,5 +1,5 @@
 import { LoanMasterNodeRegTestContainer } from './loan_container'
-import { Testing } from '@defichain/jellyfish-testing'
+import { Testing } from '@muirglacier/jellyfish-testing'
 import BigNumber from 'bignumber.js'
 import { VaultActive, VaultState } from '../../../src/category/loan'
 

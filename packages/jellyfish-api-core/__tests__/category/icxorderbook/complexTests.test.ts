@@ -1,5 +1,5 @@
 import { ContainerAdapterClient } from '../../container_adapter_client'
-import { MasterNodeRegTestContainer } from '@defichain/testcontainers'
+import { MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
 import {
   HTLC,
   ICXClaimDFCHTLCInfo,
@@ -26,7 +26,7 @@ import {
   symbolBTC,
   symbolDFI
 } from './icx_setup'
-import { accountToAccount } from '@defichain/testing'
+import { accountToAccount } from '@muirglacier/testing'
 
 describe('ICX Complex test scenarios', () => {
   const container = new MasterNodeRegTestContainer()

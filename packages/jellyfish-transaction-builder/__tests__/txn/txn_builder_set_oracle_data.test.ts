@@ -1,10 +1,10 @@
-import { GenesisKeys, MasterNodeRegTestContainer } from '@defichain/testcontainers'
+import { GenesisKeys, MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
 import { getProviders, MockProviders } from '../provider.mock'
 import { P2WPKHTransactionBuilder } from '../../src'
 import { calculateTxid, fundEllipticPair, sendTransaction } from '../test.utils'
-import { WIF } from '@defichain/jellyfish-crypto'
+import { WIF } from '@muirglacier/jellyfish-crypto'
 import BigNumber from 'bignumber.js'
-import { RegTest } from '@defichain/jellyfish-network'
+import { RegTest } from '@muirglacier/jellyfish-network'
 
 const container = new MasterNodeRegTestContainer()
 let providers: MockProviders

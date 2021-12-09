@@ -1,9 +1,9 @@
 import BigNumber from 'bignumber.js'
-import { MasterNodeRegTestContainer } from '@defichain/testcontainers'
-import { JsonRpcClient } from '@defichain/jellyfish-api-jsonrpc'
-import { CTransactionSegWit, DeFiTransactionConstants, OP_CODES, Transaction } from '@defichain/jellyfish-transaction'
-import { TransactionSigner } from '@defichain/jellyfish-transaction-signature'
-import { HASH160, WIF } from '@defichain/jellyfish-crypto'
+import { MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
+import { JsonRpcClient } from '@muirglacier/jellyfish-api-jsonrpc'
+import { CTransactionSegWit, DeFiTransactionConstants, OP_CODES, Transaction } from '@muirglacier/jellyfish-transaction'
+import { TransactionSigner } from '@muirglacier/jellyfish-transaction-signature'
+import { HASH160, WIF } from '@muirglacier/jellyfish-crypto'
 import { SmartBuffer } from 'smart-buffer'
 
 const container = new MasterNodeRegTestContainer()

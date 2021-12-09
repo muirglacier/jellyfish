@@ -1,4 +1,4 @@
-import { MasterNodeRegTestContainer, RegTestContainer } from '@defichain/testcontainers'
+import { MasterNodeRegTestContainer, RegTestContainer } from '@muirglacier/testcontainers'
 import { ContainerAdapterClient } from '../../container_adapter_client'
 
 describe('Network without masternode', () => {

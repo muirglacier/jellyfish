@@ -1,6 +1,6 @@
-import { Bech32, Elliptic, EllipticPair, dSHA256 } from '@defichain/jellyfish-crypto'
-import { MasterNodeRegTestContainer } from '@defichain/testcontainers'
-import { CTransaction, CTransactionSegWit, Transaction, TransactionSegWit } from '@defichain/jellyfish-transaction'
+import { Bech32, Elliptic, EllipticPair, dSHA256 } from '@muirglacier/jellyfish-crypto'
+import { MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
+import { CTransaction, CTransactionSegWit, Transaction, TransactionSegWit } from '@muirglacier/jellyfish-transaction'
 import { SmartBuffer } from 'smart-buffer'
 import BigNumber from 'bignumber.js'
 

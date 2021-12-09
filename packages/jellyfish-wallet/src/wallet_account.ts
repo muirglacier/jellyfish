@@ -1,8 +1,8 @@
-import { OP_CODES, Script, Transaction, TransactionSegWit, Vout } from '@defichain/jellyfish-transaction'
+import { OP_CODES, Script, Transaction, TransactionSegWit, Vout } from '@muirglacier/jellyfish-transaction'
 import { WalletEllipticPair } from './wallet_elliptic_pair'
-import { Bech32, HASH160 } from '@defichain/jellyfish-crypto'
-import { Network } from '@defichain/jellyfish-network'
-import { DeFiAddress } from '@defichain/jellyfish-address'
+import { Bech32, HASH160 } from '@muirglacier/jellyfish-crypto'
+import { Network } from '@muirglacier/jellyfish-network'
+import { DeFiAddress } from '@muirglacier/jellyfish-address'
 
 /**
  * An HDW is organized as several 'accounts'.

@@ -1,4 +1,4 @@
-import { BufferComposer, ComposableBuffer } from '@defichain/jellyfish-buffer'
+import { BufferComposer, ComposableBuffer } from '@muirglacier/jellyfish-buffer'
 import { Script } from '../../tx'
 import { CScript } from '../../tx_composer'
 import { CScriptBalances, CTokenBalance, ScriptBalances, TokenBalance } from './dftx_balance'

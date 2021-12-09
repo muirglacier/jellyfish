@@ -2,7 +2,7 @@ import { SmartBuffer } from 'smart-buffer'
 import { CBlock, Block } from '../../src/block'
 import { BlockHeader } from '../../src/blockHeader'
 import BigNumber from 'bignumber.js'
-import { OP_CODES, OP_PUSHDATA, TransactionSegWit, Transaction } from '@defichain/jellyfish-transaction'
+import { OP_CODES, OP_PUSHDATA, TransactionSegWit, Transaction } from '@muirglacier/jellyfish-transaction'
 
 describe('block with transaction as TransactionSegWit', () => {
   const data = '000000207b8a4f55907404fb75651bba54ded7b45f3629a128e07a7642ed70fb74db44d754a004227cc77dd273b77735edfd171724d00101810111507d59d96fbd58bc6bf95f2e61ffff7f20bfcf142527f23b7d84dd2cb32efe154b0b65a6989b2d3b3d650023a3af2ed8fd01000000000000000100000000000000411f8587945d6d6a83804f1444d11699ac63ac3410be733a4366accbe59a522f20e31cf6de9ef74ebc2bffdb6cdfa620789abfd19af12f1535e924008ff7b9f318a101040000000001010000000000000000000000000000000000000000000000000000000000000000ffffffff025100ffffffff0300ccfec4010000001976a9148857c8c3ce618fe7ae5f8ee11ecc8ea421a1d82988ac000057a6160000000017a914d33d91b421ec4d8d2af5e94e12ec58ea0009191e87000000000000000000266a24aa21a9ede2f61c3f71d1defd3fa999dfa36953755c690689799962b48bebd836974e8cf9000120000000000000000000000000000000000000000000000000000000000000000000000000'

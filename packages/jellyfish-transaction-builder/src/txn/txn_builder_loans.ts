@@ -14,9 +14,9 @@ import {
   TakeLoan,
   PaybackLoan,
   PlaceAuctionBid
-} from '@defichain/jellyfish-transaction'
+} from '@muirglacier/jellyfish-transaction'
 import { P2WPKHTxnBuilder } from './txn_builder'
-import { BigNumber } from '@defichain/jellyfish-json'
+import { BigNumber } from '@muirglacier/jellyfish-json'
 
 export class TxnBuilderLoans extends P2WPKHTxnBuilder {
   /**

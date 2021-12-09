@@ -2,7 +2,7 @@ import { SmartBuffer } from 'smart-buffer'
 import { CBlock, Block } from '../../src/block'
 import { BlockHeader } from '../../src/blockHeader'
 import BigNumber from 'bignumber.js'
-import { OP_CODES, OP_PUSHDATA, Transaction, TransactionSegWit } from '@defichain/jellyfish-transaction'
+import { OP_CODES, OP_PUSHDATA, Transaction, TransactionSegWit } from '@muirglacier/jellyfish-transaction'
 
 /**
  * This test compose and de-compose block 1167209 from mainnet.

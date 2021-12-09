@@ -1,6 +1,6 @@
 import BigNumber from 'bignumber.js'
-import { Testing } from '@defichain/jellyfish-testing'
-import { MasterNodeRegTestContainer } from '@defichain/testcontainers'
+import { Testing } from '@muirglacier/jellyfish-testing'
+import { MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
 import { VaultLiquidation } from '../../../src/category/loan'
 
 describe('Loan listAuctions', () => {

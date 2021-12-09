@@ -1,7 +1,7 @@
 import { LoanMasterNodeRegTestContainer } from './loan_container'
 import BigNumber from 'bignumber.js'
-import { Testing } from '@defichain/jellyfish-testing'
-import { GenesisKeys } from '@defichain/testcontainers'
+import { Testing } from '@muirglacier/jellyfish-testing'
+import { GenesisKeys } from '@muirglacier/testcontainers'
 import { TokenInfo } from '../../../src/category/token'
 
 describe('Loan updateLoanToken', () => {

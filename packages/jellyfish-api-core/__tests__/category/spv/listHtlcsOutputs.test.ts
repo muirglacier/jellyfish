@@ -1,7 +1,7 @@
-import { MasterNodeRegTestContainer } from '@defichain/testcontainers'
-import { RpcApiError } from '@defichain/jellyfish-api-core'
+import { MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
+import { RpcApiError } from '@muirglacier/jellyfish-api-core'
 import BigNumber from 'bignumber.js'
-import { Testing } from '@defichain/jellyfish-testing'
+import { Testing } from '@muirglacier/jellyfish-testing'
 
 describe('Spv', () => {
   const testing = Testing.create(new MasterNodeRegTestContainer())

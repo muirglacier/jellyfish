@@ -1,5 +1,5 @@
-import { MasterNodeRegTestContainer } from '@defichain/testcontainers'
-import { RpcApiError } from '@defichain/jellyfish-api-core'
+import { MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
+import { RpcApiError } from '@muirglacier/jellyfish-api-core'
 import { ContainerAdapterClient } from '../../container_adapter_client'
 import { HTLC_MINIMUM_BLOCK_COUNT } from '../../../src/category/spv'
 

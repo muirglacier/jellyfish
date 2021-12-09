@@ -1,4 +1,4 @@
-# @defichain/jellyfish-transaction-signature
+# @muirglacier/jellyfish-transaction-signature
 
 Stateless utility library to perform transaction signing.
 

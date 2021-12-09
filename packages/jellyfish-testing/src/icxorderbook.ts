@@ -1,6 +1,6 @@
 import { Testing } from './index'
 import BigNumber from 'bignumber.js'
-import { icxorderbook } from '@defichain/jellyfish-api-core'
+import { icxorderbook } from '@muirglacier/jellyfish-api-core'
 
 export class TestingICX {
   public symbolDFI: string

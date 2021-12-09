@@ -6,7 +6,7 @@ import {
   Transaction,
   TransactionSegWit,
   Vout
-} from '@defichain/jellyfish-transaction'
+} from '@muirglacier/jellyfish-transaction'
 
 export class TxnBuilderUtxo extends P2WPKHTxnBuilder {
   /**

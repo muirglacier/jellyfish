@@ -1,6 +1,6 @@
 import BigNumber from 'bignumber.js'
-import { EllipticPair } from '@defichain/jellyfish-crypto'
-import { Vout } from '@defichain/jellyfish-transaction'
+import { EllipticPair } from '@muirglacier/jellyfish-crypto'
+import { Vout } from '@muirglacier/jellyfish-transaction'
 
 export interface FeeRateProvider {
   /**

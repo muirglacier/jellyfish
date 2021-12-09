@@ -1,7 +1,7 @@
-import { WalletEllipticPair } from '@defichain/jellyfish-wallet'
-import { EllipticPair } from '@defichain/jellyfish-crypto'
-import { SIGHASH, Transaction, TransactionSegWit, Vout } from '@defichain/jellyfish-transaction'
-import { TransactionSigner } from '@defichain/jellyfish-transaction-signature'
+import { WalletEllipticPair } from '@muirglacier/jellyfish-wallet'
+import { EllipticPair } from '@muirglacier/jellyfish-crypto'
+import { SIGHASH, Transaction, TransactionSegWit, Vout } from '@muirglacier/jellyfish-transaction'
+import { TransactionSigner } from '@muirglacier/jellyfish-transaction-signature'
 
 /**
  * WalletClassic extends WalletEllipticPair with a simple classic implementation.

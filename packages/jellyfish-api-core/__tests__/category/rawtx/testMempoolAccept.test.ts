@@ -1,4 +1,4 @@
-import { MasterNodeRegTestContainer } from '@defichain/testcontainers'
+import { MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
 import { ContainerAdapterClient } from '../../container_adapter_client'
 import { CreateRawTxOut, TestMempoolAcceptResult } from '../../../src/category/rawtx'
 import BigNumber from 'bignumber.js'

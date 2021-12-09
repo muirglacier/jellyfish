@@ -6,8 +6,8 @@ import {
   SIGHASH,
   Transaction,
   Vout
-} from '@defichain/jellyfish-transaction'
-import { Elliptic } from '@defichain/jellyfish-crypto'
+} from '@muirglacier/jellyfish-transaction'
+import { Elliptic } from '@muirglacier/jellyfish-crypto'
 import { SignInputOption, TransactionSigner } from '../../src'
 
 describe('sign transaction', () => {

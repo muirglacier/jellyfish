@@ -7,14 +7,14 @@ import {
   TransactionSegWit,
   Vin,
   Vout
-} from '@defichain/jellyfish-transaction'
-import { SignInputOption, TransactionSigner } from '@defichain/jellyfish-transaction-signature'
+} from '@muirglacier/jellyfish-transaction'
+import { SignInputOption, TransactionSigner } from '@muirglacier/jellyfish-transaction-signature'
 import BigNumber from 'bignumber.js'
 import { EllipticPairProvider, FeeRateProvider, Prevout, PrevoutProvider } from '../provider'
 import { calculateFeeP2WPKH } from './txn_fee'
 import { TxnBuilderError, TxnBuilderErrorType } from './txn_builder_error'
-import { EllipticPair } from '@defichain/jellyfish-crypto'
-import { Network } from '@defichain/jellyfish-network'
+import { EllipticPair } from '@muirglacier/jellyfish-crypto'
+import { Network } from '@muirglacier/jellyfish-network'
 
 const MAX_FEE_RATE = new BigNumber('0.00100000')
 

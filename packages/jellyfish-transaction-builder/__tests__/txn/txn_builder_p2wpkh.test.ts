@@ -1,10 +1,10 @@
 import BigNumber from 'bignumber.js'
-import { MasterNodeRegTestContainer } from '@defichain/testcontainers'
+import { MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
 import { getProviders, MockProviders } from '../provider.mock'
 import { P2WPKHTxnBuilder } from '../../src'
 import { fundEllipticPair } from '../test.utils'
-import { CDfTx, DeFiOpUnmapped, OP_CODES, OP_DEFI_TX } from '@defichain/jellyfish-transaction'
-import { RegTest } from '@defichain/jellyfish-network'
+import { CDfTx, DeFiOpUnmapped, OP_CODES, OP_DEFI_TX } from '@muirglacier/jellyfish-transaction'
+import { RegTest } from '@muirglacier/jellyfish-network'
 
 // P2WPKHTxnBuilder is abstract and not instantiable
 class TestBuilder extends P2WPKHTxnBuilder {}

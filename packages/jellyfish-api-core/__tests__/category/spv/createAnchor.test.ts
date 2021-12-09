@@ -1,6 +1,6 @@
-import { RpcApiError } from '@defichain/jellyfish-api-core'
-import { TestingGroup, Testing } from '@defichain/jellyfish-testing'
-import { GenesisKeys, MasterNodeRegTestContainer } from '@defichain/testcontainers'
+import { RpcApiError } from '@muirglacier/jellyfish-api-core'
+import { TestingGroup, Testing } from '@muirglacier/jellyfish-testing'
+import { GenesisKeys, MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
 import BigNumber from 'bignumber.js'
 
 describe.skip('Spv', () => {

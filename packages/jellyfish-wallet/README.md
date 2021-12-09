@@ -1,4 +1,4 @@
-# @defichain/jellyfish-wallet
+# @muirglacier/jellyfish-wallet
 
 > If you want to use multiple/change address please use defid directly.
 > This is created for better UX, your daily average users.

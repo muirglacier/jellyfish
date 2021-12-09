@@ -1,5 +1,5 @@
-import { SHA256 } from '@defichain/jellyfish-crypto'
-import { Network } from '@defichain/jellyfish-network'
+import { SHA256 } from '@muirglacier/jellyfish-crypto'
+import { Network } from '@muirglacier/jellyfish-network'
 import bs58 from 'bs58'
 
 /**

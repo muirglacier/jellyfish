@@ -1,5 +1,5 @@
-import { Script } from '@defichain/jellyfish-transaction'
-import { Network } from '@defichain/jellyfish-network'
+import { Script } from '@muirglacier/jellyfish-transaction'
+import { Network } from '@muirglacier/jellyfish-network'
 import { Base58Address } from '../src'
 
 class DummyB58Address extends Base58Address {

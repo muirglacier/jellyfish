@@ -1,11 +1,11 @@
-import { BigNumber } from '@defichain/jellyfish-json'
+import { BigNumber } from '@muirglacier/jellyfish-json'
 import {
   CreateMasternode,
   OP_CODES,
   ResignMasternode,
   Script,
   TransactionSegWit
-} from '@defichain/jellyfish-transaction'
+} from '@muirglacier/jellyfish-transaction'
 import { P2WPKHTxnBuilder } from './txn_builder'
 
 export class TxnBuilderMasternode extends P2WPKHTxnBuilder {

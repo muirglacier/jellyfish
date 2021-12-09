@@ -1,12 +1,12 @@
-import { GenesisKeys, MasterNodeRegTestContainer } from '@defichain/testcontainers'
+import { GenesisKeys, MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
 import { getProviders, MockProviders } from '../provider.mock'
 import { P2WPKHTransactionBuilder } from '../../src'
-import { WIF } from '@defichain/jellyfish-crypto'
+import { WIF } from '@muirglacier/jellyfish-crypto'
 import { calculateTxid, fundEllipticPair, sendTransaction } from '../test.utils'
 import BigNumber from 'bignumber.js'
-import { ICXMakeOffer, OP_CODES } from '@defichain/jellyfish-transaction'
-import { Testing } from '@defichain/jellyfish-testing'
-import { RegTest } from '@defichain/jellyfish-network'
+import { ICXMakeOffer, OP_CODES } from '@muirglacier/jellyfish-transaction'
+import { Testing } from '@muirglacier/jellyfish-testing'
+import { RegTest } from '@muirglacier/jellyfish-network'
 
 describe('make ICX offer', () => {
   const testing = Testing.create(new MasterNodeRegTestContainer())

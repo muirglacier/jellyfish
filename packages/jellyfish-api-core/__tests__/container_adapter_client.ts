@@ -1,6 +1,6 @@
 import { ApiClient, RpcApiError } from '../src'
-import { DeFiDContainer } from '@defichain/testcontainers'
-import { JellyfishJSON, Precision, PrecisionPath } from '@defichain/jellyfish-json'
+import { DeFiDContainer } from '@muirglacier/testcontainers'
+import { JellyfishJSON, Precision, PrecisionPath } from '@muirglacier/jellyfish-json'
 
 /**
  * Jellyfish client adapter for container

@@ -8,23 +8,23 @@ slug: /usage
 ## Installation
 
 ```shell
-npm i defichain @defichain/jellyfish-api-jsonrpc
+npm i defichain @muirglacier/jellyfish-api-jsonrpc
 ```
 
 ## JsonRpcClient
 
 ```ts
-import { JsonRpcClient } from '@defichain/jellyfish-api-jsonrpc'
+import { JsonRpcClient } from '@muirglacier/jellyfish-api-jsonrpc'
 
 const client = new JsonRpcClient('http://foo:bar@localhost:8554')
 ```
 
 ## ApiClient
 
-You can extend `ApiClient` with the `@defichain/jellyfish-api-core` package to create your own transport exchange specification.
+You can extend `ApiClient` with the `@muirglacier/jellyfish-api-core` package to create your own transport exchange specification.
 
 ```ts
-import { ApiClient } from '@defichain/jellyfish-api-core'
+import { ApiClient } from '@muirglacier/jellyfish-api-core'
 
 
 class SpecClient extends ApiClient {

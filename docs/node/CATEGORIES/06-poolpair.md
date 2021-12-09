@@ -6,7 +6,7 @@ slug: /jellyfish/api/poolpair
 ---
 
 ```js
-import {Client} from '@defichain/jellyfish'
+import {Client} from '@muirglacier/jellyfish'
 const client = new Client()
 // Using client.poolpair.
 const something = await client.poolpair.method()

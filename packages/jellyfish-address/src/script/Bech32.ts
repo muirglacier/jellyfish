@@ -1,5 +1,5 @@
 import { bech32 } from 'bech32'
-import { Network } from '@defichain/jellyfish-network'
+import { Network } from '@muirglacier/jellyfish-network'
 
 /**
  * Human Readable Part, prefixed to all bech32/segwit native address

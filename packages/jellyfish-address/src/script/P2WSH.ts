@@ -1,5 +1,5 @@
-import { OP_CODES, OP_PUSHDATA, Script } from '@defichain/jellyfish-transaction'
-import { getNetwork, NetworkName } from '@defichain/jellyfish-network'
+import { OP_CODES, OP_PUSHDATA, Script } from '@muirglacier/jellyfish-transaction'
+import { getNetwork, NetworkName } from '@muirglacier/jellyfish-network'
 import { DecodedBech32, toBech32 } from './Bech32'
 
 function isScriptP2WSH (script: Script): boolean {

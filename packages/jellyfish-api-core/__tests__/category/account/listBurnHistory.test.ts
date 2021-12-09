@@ -1,7 +1,7 @@
-import { MasterNodeRegTestContainer } from '@defichain/testcontainers'
+import { MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
 import { ContainerAdapterClient } from '../../container_adapter_client'
 import { BalanceTransferPayload, DfTxType } from '../../../src/category/account'
-import { createToken, accountToAccount } from '@defichain/testing'
+import { createToken, accountToAccount } from '@muirglacier/testing'
 
 describe('Account', () => {
   const container = new MasterNodeRegTestContainer()

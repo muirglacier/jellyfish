@@ -1,9 +1,9 @@
 import { LoanMasterNodeRegTestContainer } from '../loan/loan_container'
 import { ContainerAdapterClient } from '../../container_adapter_client'
 import { RpcApiError } from '../../../src'
-import { poolpair } from '@defichain/jellyfish-api-core'
-import { Testing } from '@defichain/jellyfish-testing'
-import { GenesisKeys } from '@defichain/testcontainers'
+import { poolpair } from '@muirglacier/jellyfish-api-core'
+import { Testing } from '@muirglacier/jellyfish-testing'
+import { GenesisKeys } from '@muirglacier/testcontainers'
 import { UTXO } from 'packages/jellyfish-api-core/src/category/wallet'
 import BigNumber from 'bignumber.js'
 

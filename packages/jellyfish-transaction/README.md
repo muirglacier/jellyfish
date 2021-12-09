@@ -1,4 +1,4 @@
-# @defichain/jellyfish-transaction
+# @muirglacier/jellyfish-transaction
 
 Dead simple modern stateless raw transaction composer for the DeFi Blockchain.
 

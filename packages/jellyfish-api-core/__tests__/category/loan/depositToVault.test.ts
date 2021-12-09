@@ -1,8 +1,8 @@
 import { LoanMasterNodeRegTestContainer } from './loan_container'
-import { GenesisKeys } from '@defichain/testcontainers'
+import { GenesisKeys } from '@muirglacier/testcontainers'
 import BigNumber from 'bignumber.js'
-import { TestingGroup } from '@defichain/jellyfish-testing'
-import { RpcApiError } from '@defichain/jellyfish-api-core'
+import { TestingGroup } from '@muirglacier/jellyfish-testing'
+import { RpcApiError } from '@muirglacier/jellyfish-api-core'
 
 describe('Loan depositToVault', () => {
   const tGroup = TestingGroup.create(2, i => new LoanMasterNodeRegTestContainer(GenesisKeys[i]))

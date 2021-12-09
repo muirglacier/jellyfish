@@ -1,5 +1,5 @@
-import { Network } from '@defichain/jellyfish-network'
-import { Script } from '@defichain/jellyfish-transaction'
+import { Network } from '@muirglacier/jellyfish-network'
+import { Script } from '@muirglacier/jellyfish-transaction'
 
 export type AddressTypeDeprecated = 'Unknown' | 'P2PKH' | 'P2SH' | 'P2WPKH' | 'P2WSH'
 export type Validator = () => boolean

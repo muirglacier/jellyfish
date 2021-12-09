@@ -1,5 +1,5 @@
 import { ContainerAdapterClient } from '../../container_adapter_client'
-import { MasterNodeRegTestContainer } from '@defichain/testcontainers'
+import { MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
 import {
   ICXGenericResult,
   ICXOffer,
@@ -19,7 +19,7 @@ import {
   idDFI,
   symbolDFI
 } from './icx_setup'
-import { RpcApiError } from '@defichain/jellyfish-api-core'
+import { RpcApiError } from '@muirglacier/jellyfish-api-core'
 
 describe('ICXOrderBook.makeOffer', () => {
   const container = new MasterNodeRegTestContainer()

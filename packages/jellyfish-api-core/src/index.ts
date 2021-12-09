@@ -1,4 +1,4 @@
-import { Precision, PrecisionPath } from '@defichain/jellyfish-json'
+import { Precision, PrecisionPath } from '@muirglacier/jellyfish-json'
 import { Blockchain } from './category/blockchain'
 import { Mining } from './category/mining'
 import { Net } from './category/net'
@@ -16,7 +16,7 @@ import { Spv } from './category/spv'
 import { Misc } from './category/misc'
 import { Loan } from './category/loan'
 
-export * from '@defichain/jellyfish-json'
+export * from '@muirglacier/jellyfish-json'
 
 export * as blockchain from './category/blockchain'
 export * as mining from './category/mining'

@@ -1,4 +1,4 @@
-import { CreateCfp, CreateVoc, OP_CODES, Script, TransactionSegWit, Vote, SetGovernance, SetGovernanceHeight } from '@defichain/jellyfish-transaction'
+import { CreateCfp, CreateVoc, OP_CODES, Script, TransactionSegWit, Vote, SetGovernance, SetGovernanceHeight } from '@muirglacier/jellyfish-transaction'
 import { P2WPKHTxnBuilder } from './txn_builder'
 import { TxnBuilderError, TxnBuilderErrorType } from './txn_builder_error'
 import BigNumber from 'bignumber.js'

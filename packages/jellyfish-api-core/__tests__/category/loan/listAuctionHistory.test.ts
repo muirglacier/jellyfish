@@ -1,6 +1,6 @@
 import BigNumber from 'bignumber.js'
-import { TestingGroup } from '@defichain/jellyfish-testing'
-import { GenesisKeys, MasterNodeRegTestContainer } from '@defichain/testcontainers'
+import { TestingGroup } from '@muirglacier/jellyfish-testing'
+import { GenesisKeys, MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
 import { ListAuctionHistoryDetail } from '../../../src/category/loan'
 
 describe('Loan listAuctionHistory', () => {

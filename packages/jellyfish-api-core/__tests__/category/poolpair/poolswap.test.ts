@@ -1,4 +1,4 @@
-import { MasterNodeRegTestContainer } from '@defichain/testcontainers'
+import { MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
 import { ContainerAdapterClient } from '../../container_adapter_client'
 import BigNumber from 'bignumber.js'
 import {
@@ -8,10 +8,10 @@ import {
   getNewAddress,
   mintTokens,
   utxosToAccount
-} from '@defichain/testing'
+} from '@muirglacier/testing'
 import { RpcApiError } from '../../../src'
-import { poolpair } from '@defichain/jellyfish-api-core'
-import { Testing } from '@defichain/jellyfish-testing'
+import { poolpair } from '@muirglacier/jellyfish-api-core'
+import { Testing } from '@muirglacier/jellyfish-testing'
 
 describe('poolSwap', () => {
   const container = new MasterNodeRegTestContainer()

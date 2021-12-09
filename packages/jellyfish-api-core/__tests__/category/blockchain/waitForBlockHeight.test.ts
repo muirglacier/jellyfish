@@ -1,6 +1,6 @@
-import { MasterNodeRegTestContainer } from '@defichain/testcontainers'
+import { MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
 import { ContainerAdapterClient } from '../../container_adapter_client'
-import { TestingGroup } from '@defichain/jellyfish-testing'
+import { TestingGroup } from '@muirglacier/jellyfish-testing'
 
 describe('wait for block height 10', () => {
   const container = new MasterNodeRegTestContainer()

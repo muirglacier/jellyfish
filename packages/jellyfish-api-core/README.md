@@ -1,6 +1,6 @@
-# @defichain/jellyfish-api-core
+# @muirglacier/jellyfish-api-core
 
-`@defichain/jellyfish-api-core` is a protocol agnostic DeFiChain client implementation with APIs separated into their
+`@muirglacier/jellyfish-api-core` is a protocol agnostic DeFiChain client implementation with APIs separated into their
 category.
 
 ## Features
@@ -54,4 +54,4 @@ jest
 
 As the RPC is implemented on `jellyfish-api-core`, all testing of RPC implementation should be done
 on `jellyfish-api-core`. `ContainerAdapterClient` is created to facilitate testing via an adapter implementation with
-all RPCs proxied into a `@defichain/testcontainers`.
+all RPCs proxied into a `@muirglacier/testcontainers`.

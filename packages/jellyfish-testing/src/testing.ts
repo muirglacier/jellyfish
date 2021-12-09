@@ -6,9 +6,9 @@ import { TestingRawTx } from './rawtx'
 import { TestingICX } from './icxorderbook'
 import { TestingMisc } from './misc'
 import { TestingGroupAnchor } from './anchor'
-import { ContainerGroup, MasterNodeRegTestContainer } from '@defichain/testcontainers'
-import { RegTestFoundationKeys } from '@defichain/jellyfish-network'
-import { JsonRpcClient } from '@defichain/jellyfish-api-jsonrpc'
+import { ContainerGroup, MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
+import { RegTestFoundationKeys } from '@muirglacier/jellyfish-network'
+import { JsonRpcClient } from '@muirglacier/jellyfish-api-jsonrpc'
 
 export class Testing {
   public readonly fixture = new TestingFixture(this)

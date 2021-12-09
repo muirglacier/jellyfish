@@ -1,4 +1,4 @@
-import { MasterNodeRegTestContainer, GenesisKeys, ContainerGroup } from '@defichain/testcontainers'
+import { MasterNodeRegTestContainer, GenesisKeys, ContainerGroup } from '@muirglacier/testcontainers'
 import { ContainerAdapterClient } from '../../container_adapter_client'
 
 describe('Masternode', () => {

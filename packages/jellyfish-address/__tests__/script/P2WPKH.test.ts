@@ -1,11 +1,11 @@
-import { MainNetContainer, MasterNodeRegTestContainer, TestNetContainer } from '@defichain/testcontainers'
-import { Testing } from '@defichain/jellyfish-testing'
-import { wallet } from '@defichain/jellyfish-api-core'
-import { OP_CODES, Script } from '@defichain/jellyfish-transaction'
-import { HASH160 } from '@defichain/jellyfish-crypto'
-import { AddressType, DecodedAddress, fromAddress, fromScript, fromScriptHex } from '@defichain/jellyfish-address'
+import { MainNetContainer, MasterNodeRegTestContainer, TestNetContainer } from '@muirglacier/testcontainers'
+import { Testing } from '@muirglacier/jellyfish-testing'
+import { wallet } from '@muirglacier/jellyfish-api-core'
+import { OP_CODES, Script } from '@muirglacier/jellyfish-transaction'
+import { HASH160 } from '@muirglacier/jellyfish-crypto'
+import { AddressType, DecodedAddress, fromAddress, fromScript, fromScriptHex } from '@muirglacier/jellyfish-address'
 import { fromScriptP2WPKH } from '../../src/script/P2WPKH'
-import { NetworkName } from '@defichain/jellyfish-network'
+import { NetworkName } from '@muirglacier/jellyfish-network'
 
 describe('with regtest container', () => {
   const container = new MasterNodeRegTestContainer()

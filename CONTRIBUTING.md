@@ -24,7 +24,7 @@ Configurations required when introducing new package:
 modules or individually at each submodule. By default, only regtest chain are used for normal testing. If you use
 IntelliJ IDEA, you can right-click any file to test it individually and have it reported to the IDE.
 
-Docker is required to run the tests as [`@defichain/testcontainers`](./packages/testcontainers) will automatically spin
+Docker is required to run the tests as [`@muirglacier/testcontainers`](./packages/testcontainers) will automatically spin
 up `regtest` instances for testing. The number of containers it will spin up concurrently is dependent on your
 jest `--maxConcurrency` count. Test are known to be flaky due to the usage of multiple Docker containers for test
 concurrency. Although testcontainers cleans up after itself, there are cases where the tests fail exceptionally you
@@ -91,7 +91,7 @@ TODO comments should usually include the author's github username in parentheses
 ## Publishing
 
 `"version": "0.0.0"` is used because publishing will be done automatically
-by [GitHub releases](https://github.com/DeFiCh/jellyfish/releases) with connected workflows. On
+by [GitHub releases](https://github.com/muirglacier/jellyfish/releases) with connected workflows. On
 release `types: [ published ]`, GitHub Action will automatically build all packages in this repo and publish it into
 npm. All packages in this mono-repo will require `"peerDependencies": "defichain"` this setup ensures all
 subsequent `@defichain/*` package uses the same version.

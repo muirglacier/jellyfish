@@ -1,6 +1,6 @@
-import { MasterNodeRegTestContainer } from '@defichain/testcontainers'
+import { MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
 import BigNumber from 'bignumber.js'
-import { Testing } from '@defichain/jellyfish-testing'
+import { Testing } from '@muirglacier/jellyfish-testing'
 
 describe('Block', () => {
   const testing = Testing.create(new MasterNodeRegTestContainer())

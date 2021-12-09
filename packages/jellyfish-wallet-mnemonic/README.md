@@ -1,4 +1,4 @@
-# @defichain/jellyfish-wallet-mnemonic
+# @muirglacier/jellyfish-wallet-mnemonic
 
 MnemonicHdNode implements the WalletHdNode from jellyfish-wallet. HdNode implementations is purpose and derivation
 agnostic.
@@ -11,12 +11,12 @@ agnostic.
 
 ### #555 Broke Compatibility with BIP32
 
-> https://github.com/DeFiCh/jellyfish/pull/555
+> https://github.com/muirglacier/jellyfish/pull/555
 
-In [#555](https://github.com/DeFiCh/jellyfish/pull/555) a significant change was done to
-"@defichain/jellyfish-wallet-mnemonic". Part of the BIP32 specification literature defines the use of HMAC-SHA512.
+In [#555](https://github.com/muirglacier/jellyfish/pull/555) a significant change was done to
+"@muirglacier/jellyfish-wallet-mnemonic". Part of the BIP32 specification literature defines the use of HMAC-SHA512.
 `"Calculate I = HMAC-SHA512(Key = "Bitcoin seed", Data = S)"`. The `Key` in this implementation was updated
-to `"@defichain/jellyfish-wallet-mnemonic"`. Although a novel idea at that time, this, unfortunately, created
+to `"@muirglacier/jellyfish-wallet-mnemonic"`. Although a novel idea at that time, this, unfortunately, created
 incompatibilities with other 24-word providers.
 
 Detailed in this issue https://github.com/DeFiCh/wallet/issues/726, where one explores a conscious bank owner that takes

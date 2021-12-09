@@ -1,6 +1,6 @@
-import { spv } from '@defichain/jellyfish-api-core'
-import { TestingGroup } from '@defichain/jellyfish-testing'
-import { GenesisKeys } from '@defichain/testcontainers'
+import { spv } from '@muirglacier/jellyfish-api-core'
+import { TestingGroup } from '@muirglacier/jellyfish-testing'
+import { GenesisKeys } from '@muirglacier/testcontainers'
 
 describe.skip('Spv', () => {
   const tGroup = TestingGroup.create(3)

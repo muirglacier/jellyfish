@@ -1,6 +1,6 @@
 import { SmartBuffer } from 'smart-buffer'
-import { Script, toOPCodes } from '@defichain/jellyfish-transaction'
-import { NetworkName } from '@defichain/jellyfish-network'
+import { Script, toOPCodes } from '@muirglacier/jellyfish-transaction'
+import { NetworkName } from '@muirglacier/jellyfish-network'
 import { fromBech32P2WPKH, fromScriptP2WPKH } from './P2WPKH'
 import { fromBech32P2WSH, fromScriptP2WSH } from './P2WSH'
 import { fromBase58CheckP2SH, fromScriptP2SH } from './P2SH'

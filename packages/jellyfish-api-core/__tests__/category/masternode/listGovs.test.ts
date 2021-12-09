@@ -1,5 +1,5 @@
-import { MasterNodeRegTestContainer } from '@defichain/testcontainers'
-import { createPoolPair, createToken } from '@defichain/testing'
+import { MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
+import { createPoolPair, createToken } from '@muirglacier/testing'
 import { ContainerAdapterClient } from '../../container_adapter_client'
 
 describe('Masternode', () => {

@@ -1,4 +1,4 @@
-import { MasterNodeRegTestContainer } from '@defichain/testcontainers'
+import { MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
 import { ContainerAdapterClient } from '../../container_adapter_client'
 import { MasternodeState, MasternodeTimeLock } from '../../../src/category/masternode'
 import { RpcApiError } from '../../../src'

@@ -1,7 +1,7 @@
 import BigNumber from 'bignumber.js'
-import { MasterNodeRegTestContainer } from '@defichain/testcontainers'
-import { Bech32, Elliptic, EllipticPair, HRP, WIF } from '@defichain/jellyfish-crypto'
-import { RegTest } from '@defichain/jellyfish-network'
+import { MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
+import { Bech32, Elliptic, EllipticPair, HRP, WIF } from '@muirglacier/jellyfish-crypto'
+import { RegTest } from '@muirglacier/jellyfish-network'
 
 /**
  * Create a signed transaction

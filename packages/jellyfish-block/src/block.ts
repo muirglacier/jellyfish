@@ -1,11 +1,11 @@
 import { BlockHeader, CBlockHeader } from './blockHeader'
-import { BufferComposer, ComposableBuffer } from '@defichain/jellyfish-buffer'
+import { BufferComposer, ComposableBuffer } from '@muirglacier/jellyfish-buffer'
 import {
   TransactionSegWit,
   Transaction,
   CTransaction,
   CTransactionSegWit
-} from '@defichain/jellyfish-transaction'
+} from '@muirglacier/jellyfish-transaction'
 import { SmartBuffer } from 'smart-buffer'
 
 export interface Block {

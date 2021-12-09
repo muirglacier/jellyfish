@@ -1,4 +1,4 @@
-import { dSHA256, EllipticPair, HASH160 } from '@defichain/jellyfish-crypto'
+import { dSHA256, EllipticPair, HASH160 } from '@muirglacier/jellyfish-crypto'
 import { SmartBuffer } from 'smart-buffer'
 import {
   CVoutV4,
@@ -14,7 +14,7 @@ import {
   Vout,
   Witness,
   WitnessProgram
-} from '@defichain/jellyfish-transaction'
+} from '@muirglacier/jellyfish-transaction'
 
 export interface SignInputOption {
   /**

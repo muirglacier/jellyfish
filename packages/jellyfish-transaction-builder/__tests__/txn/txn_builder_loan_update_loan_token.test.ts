@@ -1,14 +1,14 @@
-import { GenesisKeys } from '@defichain/testcontainers'
+import { GenesisKeys } from '@muirglacier/testcontainers'
 import { getProviders, MockProviders } from '../provider.mock'
 import { P2WPKHTransactionBuilder } from '../../src'
 import { fundEllipticPair, sendTransaction } from '../test.utils'
-import { WIF } from '@defichain/jellyfish-crypto'
+import { WIF } from '@muirglacier/jellyfish-crypto'
 import BigNumber from 'bignumber.js'
 import { LoanMasterNodeRegTestContainer } from './loan_container'
-import { Testing } from '@defichain/jellyfish-testing'
-import { RegTest } from '@defichain/jellyfish-network'
-import { LoanTokenResult } from '@defichain/jellyfish-api-core/src/category/loan'
-import { TokenInfo } from '@defichain/jellyfish-api-core/src/category/token'
+import { Testing } from '@muirglacier/jellyfish-testing'
+import { RegTest } from '@muirglacier/jellyfish-network'
+import { LoanTokenResult } from '@muirglacier/jellyfish-api-core/src/category/loan'
+import { TokenInfo } from '@muirglacier/jellyfish-api-core/src/category/token'
 
 const container = new LoanMasterNodeRegTestContainer()
 const testing = Testing.create(container)

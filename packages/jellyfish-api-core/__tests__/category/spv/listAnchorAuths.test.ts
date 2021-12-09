@@ -1,5 +1,5 @@
-import { TestingGroup } from '@defichain/jellyfish-testing'
-import { GenesisKeys } from '@defichain/testcontainers'
+import { TestingGroup } from '@muirglacier/jellyfish-testing'
+import { GenesisKeys } from '@muirglacier/testcontainers'
 
 describe('Spv', () => {
   const tGroup = TestingGroup.create(3)

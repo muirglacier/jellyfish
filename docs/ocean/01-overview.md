@@ -8,7 +8,7 @@ slug: /
 :::info BETA API v0 & beyond
 
 Ocean REST API is currently in public BETA, all endpoint is prefixed with `/v0`. As part of
-[DeFiCh/jellyfish#580](https://github.com/DeFiCh/jellyfish/issues/580) consolidation effort to creating better
+[DeFiCh/jellyfish#580](https://github.com/muirglacier/jellyfish/issues/580) consolidation effort to creating better
 development synergy, `/v1` of the API is undergoing redesign and will look very different from `/v0`.
 `/v0` of the API is **used in production by `DeFiCh/wallet` and `DeFiCh/scan`**, the API will be long-lived with
 frequent incremental change with backward compatibility.

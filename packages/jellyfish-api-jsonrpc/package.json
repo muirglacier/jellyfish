@@ -1,6 +1,6 @@
 {
   "private": false,
-  "name": "@defichain/jellyfish-api-jsonrpc",
+  "name": "@muirglacier/jellyfish-api-jsonrpc",
   "version": "0.0.0",
   "description": "A collection of TypeScript + JavaScript tools and libraries for DeFi Blockchain developers to build decentralized finance for Bitcoin",
   "keywords": [
@@ -10,8 +10,8 @@
     "API",
     "Bitcoin"
   ],
-  "repository": "DeFiCh/jellyfish",
-  "bugs": "https://github.com/DeFiCh/jellyfish/issues",
+  "repository": "muirglacier/jellyfish",
+  "bugs": "https://github.com/muirglacier/jellyfish/issues",
   "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -22,7 +22,7 @@
     "build": "tsc -b ./tsconfig.build.json"
   },
   "dependencies": {
-    "@defichain/jellyfish-api-core": "^0.0.0",
+    "@muirglacier/jellyfish-api-core": "^0.0.0",
     "abort-controller": "^3.0.0",
     "cross-fetch": "^3.1.4"
   },

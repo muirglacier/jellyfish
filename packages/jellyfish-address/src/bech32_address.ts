@@ -1,4 +1,4 @@
-import { Network } from '@defichain/jellyfish-network'
+import { Network } from '@muirglacier/jellyfish-network'
 import { bech32 } from 'bech32'
 import { Address, AddressTypeDeprecated, Validator } from './address'
 

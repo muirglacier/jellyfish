@@ -1,4 +1,4 @@
-import { MasterNodeRegTestContainer, RegTestContainer } from '@defichain/testcontainers'
+import { MasterNodeRegTestContainer, RegTestContainer } from '@muirglacier/testcontainers'
 import { ContainerAdapterClient } from '../../container_adapter_client'
 import { BigNumber } from 'bignumber.js'
 import { WalletFlag, WalletBalances } from '../../../src/category/wallet'

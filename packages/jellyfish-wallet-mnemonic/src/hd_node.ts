@@ -1,9 +1,9 @@
 import createHmac from 'create-hmac'
 import * as bip32 from 'bip32'
-import { WalletHdNode, WalletHdNodeProvider } from '@defichain/jellyfish-wallet'
-import { DERSignature } from '@defichain/jellyfish-crypto'
-import { SIGHASH, Transaction, TransactionSegWit, Vout } from '@defichain/jellyfish-transaction'
-import { TransactionSigner } from '@defichain/jellyfish-transaction-signature'
+import { WalletHdNode, WalletHdNodeProvider } from '@muirglacier/jellyfish-wallet'
+import { DERSignature } from '@muirglacier/jellyfish-crypto'
+import { SIGHASH, Transaction, TransactionSegWit, Vout } from '@muirglacier/jellyfish-transaction'
+import { TransactionSigner } from '@muirglacier/jellyfish-transaction-signature'
 import { generateMnemonicWords, mnemonicToSeed } from './mnemonic'
 
 /**
@@ -167,7 +167,7 @@ export class MnemonicHdNodeProvider implements WalletHdNodeProvider<MnemonicHdNo
 }
 
 /**
- * Derive from mnemonic words using our own seed called '@defichain/jellyfish-wallet-mnemonic'.
+ * Derive from mnemonic words using our own seed called '@muirglacier/jellyfish-wallet-mnemonic'.
  *
  * @param {string[]} words to convert into Bip32Interface
  * @param {Bip32Options} options
@@ -181,7 +181,7 @@ function fromWordsToSeed (words: string[], options: Bip32Options): bip32.BIP32In
     throw new TypeError('Seed should be at most 512 bits')
   }
 
-  const key = Buffer.from('@defichain/jellyfish-wallet-mnemonic', 'utf8')
+  const key = Buffer.from('@muirglacier/jellyfish-wallet-mnemonic', 'utf8')
   const I = createHmac('sha512', key).update(seed).digest()
   const IL = I.slice(0, 32)
   const IR = I.slice(32)

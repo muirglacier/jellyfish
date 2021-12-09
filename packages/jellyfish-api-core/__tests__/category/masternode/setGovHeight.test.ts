@@ -1,6 +1,6 @@
-import { RpcApiError } from '@defichain/jellyfish-api-core'
-import { GenesisKeys, LoanMasterNodeRegTestContainer } from '@defichain/testcontainers'
-import { createPoolPair, createToken } from '@defichain/testing'
+import { RpcApiError } from '@muirglacier/jellyfish-api-core'
+import { GenesisKeys, LoanMasterNodeRegTestContainer } from '@muirglacier/testcontainers'
+import { createPoolPair, createToken } from '@muirglacier/testing'
 import { ContainerAdapterClient } from '../../container_adapter_client'
 
 describe('Masternode', () => {

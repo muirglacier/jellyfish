@@ -1,6 +1,6 @@
-import { BigNumber, RpcApiError } from '@defichain/jellyfish-api-core'
-import { MasterNodeRegTestContainer } from '@defichain/testcontainers'
-import { createPoolPair, createToken } from '@defichain/testing'
+import { BigNumber, RpcApiError } from '@muirglacier/jellyfish-api-core'
+import { MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
+import { createPoolPair, createToken } from '@muirglacier/testing'
 import { ContainerAdapterClient } from '../../container_adapter_client'
 
 describe('Masternode', () => {

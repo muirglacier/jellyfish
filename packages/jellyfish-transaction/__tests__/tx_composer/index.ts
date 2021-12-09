@@ -1,5 +1,5 @@
 import { SmartBuffer } from 'smart-buffer'
-import { ComposableBuffer } from '@defichain/jellyfish-buffer'
+import { ComposableBuffer } from '@muirglacier/jellyfish-buffer'
 
 export function expectHexBufferToObject<T> (hex: string, data: T, asC: ((buffer: SmartBuffer) => ComposableBuffer<T>)): void {
   const composable = asC(SmartBuffer.fromBuffer(

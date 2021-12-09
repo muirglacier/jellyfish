@@ -1,10 +1,10 @@
 import BigNumber from 'bignumber.js'
-import { MasterNodeRegTestContainer } from '@defichain/testcontainers'
-import { OP_CODES, Script } from '@defichain/jellyfish-transaction'
+import { MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
+import { OP_CODES, Script } from '@muirglacier/jellyfish-transaction'
 import { getProviders, MockProviders } from '../provider.mock'
 import { fundEllipticPair, randomEllipticPair } from '../test.utils'
 import { P2WPKHTransactionBuilder } from '../../src'
-import { RegTest } from '@defichain/jellyfish-network'
+import { RegTest } from '@muirglacier/jellyfish-network'
 
 const container = new MasterNodeRegTestContainer()
 let providers: MockProviders

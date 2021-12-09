@@ -1,4 +1,4 @@
-import { MasterNodeKey, RegTestFoundationKeys } from '@defichain/jellyfish-network'
+import { MasterNodeKey, RegTestFoundationKeys } from '@muirglacier/jellyfish-network'
 import { waitForCondition } from '../../utils'
 import { DockerOptions } from 'dockerode'
 import { DeFiDContainer, StartOptions } from '../DeFiDContainer'

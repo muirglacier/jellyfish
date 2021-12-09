@@ -1,8 +1,8 @@
-import { GenesisKeys, StartOptions } from '@defichain/testcontainers'
+import { GenesisKeys, StartOptions } from '@muirglacier/testcontainers'
 import { MasternodeType, VoteDecision } from '../../../src/category/governance'
 import { GovernanceMasterNodeRegTestContainer } from './governance_container'
-import { Testing } from '@defichain/jellyfish-testing'
-import { masternode } from '@defichain/jellyfish-api-core'
+import { Testing } from '@muirglacier/jellyfish-testing'
+import { masternode } from '@muirglacier/jellyfish-api-core'
 
 class MultiOperatorGovernanceMasterNodeRegTestContainer extends GovernanceMasterNodeRegTestContainer {
   protected getCmd (opts: StartOptions): string[] {

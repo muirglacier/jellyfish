@@ -1,5 +1,5 @@
 import { ContainerAdapterClient } from '../../container_adapter_client'
-import { MasterNodeRegTestContainer } from '@defichain/testcontainers'
+import { MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
 import {
   ExtHTLC,
   HTLC,

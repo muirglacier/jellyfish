@@ -1,13 +1,13 @@
-import { GenesisKeys, MasterNodeRegTestContainer } from '@defichain/testcontainers'
+import { GenesisKeys, MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
 import { getProviders, MockProviders } from '../provider.mock'
 import { P2WPKHTransactionBuilder } from '../../src'
 import { calculateTxid, sendTransaction } from '../test.utils'
-import { WIF } from '@defichain/jellyfish-crypto'
+import { WIF } from '@muirglacier/jellyfish-crypto'
 import BigNumber from 'bignumber.js'
-import { ICXSubmitEXTHTLC, OP_CODES } from '@defichain/jellyfish-transaction'
-import { Testing } from '@defichain/jellyfish-testing'
-import { icxorderbook } from '@defichain/jellyfish-api-core'
-import { RegTest } from '@defichain/jellyfish-network'
+import { ICXSubmitEXTHTLC, OP_CODES } from '@muirglacier/jellyfish-transaction'
+import { Testing } from '@muirglacier/jellyfish-testing'
+import { icxorderbook } from '@muirglacier/jellyfish-api-core'
+import { RegTest } from '@muirglacier/jellyfish-network'
 
 describe('submit EXT HTLC', () => {
   const container = new MasterNodeRegTestContainer()

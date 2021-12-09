@@ -1,6 +1,6 @@
 import { LoanMasterNodeRegTestContainer } from './loan_container'
 import BigNumber from 'bignumber.js'
-import { Testing } from '@defichain/jellyfish-testing'
+import { Testing } from '@muirglacier/jellyfish-testing'
 import { FixedIntervalPricePagination } from '../../../src/category/oracle'
 
 const container = new LoanMasterNodeRegTestContainer()

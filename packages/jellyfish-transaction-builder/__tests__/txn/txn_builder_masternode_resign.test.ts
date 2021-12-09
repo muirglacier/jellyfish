@@ -1,12 +1,12 @@
-import { JsonRpcClient } from '@defichain/jellyfish-api-jsonrpc'
-import { Bech32 } from '@defichain/jellyfish-crypto'
-import { ResignMasternode } from '@defichain/jellyfish-transaction'
-import { DeFiDRpcError, MasterNodeRegTestContainer } from '@defichain/testcontainers'
+import { JsonRpcClient } from '@muirglacier/jellyfish-api-jsonrpc'
+import { Bech32 } from '@muirglacier/jellyfish-crypto'
+import { ResignMasternode } from '@muirglacier/jellyfish-transaction'
+import { DeFiDRpcError, MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
 import { getProviders, MockProviders } from '../provider.mock'
 import { P2WPKHTransactionBuilder } from '../../src'
 import { MasternodeState, MasternodeTimeLock } from '../../../jellyfish-api-core/src/category/masternode'
 import { fundEllipticPair, sendTransaction } from '../test.utils'
-import { RegTest } from '@defichain/jellyfish-network'
+import { RegTest } from '@muirglacier/jellyfish-network'
 
 const container = new MasterNodeRegTestContainer()
 let providers: MockProviders

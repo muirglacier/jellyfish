@@ -1,6 +1,6 @@
 import { LoanMasterNodeRegTestContainer } from './loan_container'
 import BigNumber from 'bignumber.js'
-import { Testing } from '@defichain/jellyfish-testing'
+import { Testing } from '@muirglacier/jellyfish-testing'
 
 describe('Loan listCollateralTokens with empty param, all param or (height + all params)', () => {
   const container = new LoanMasterNodeRegTestContainer()

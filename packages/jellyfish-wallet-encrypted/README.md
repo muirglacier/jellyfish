@@ -1,4 +1,4 @@
-# @defichain/jellyfish-wallet-encrypted
+# @muirglacier/jellyfish-wallet-encrypted
 
 EncryptedMnemonicHdNode extends MnemonicHdNode to implement promise-based privKey resolution. This allows latent based
 implementation where privKey need to be decrypted.

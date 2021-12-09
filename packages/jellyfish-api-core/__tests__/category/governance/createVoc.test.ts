@@ -1,6 +1,6 @@
 import { ContainerAdapterClient } from '../../container_adapter_client'
 import { ProposalStatus, ProposalType } from '../../../src/category/governance'
-import { RpcApiError } from '@defichain/jellyfish-api-core'
+import { RpcApiError } from '@muirglacier/jellyfish-api-core'
 import { GovernanceMasterNodeRegTestContainer } from './governance_container'
 
 describe('Governance', () => {

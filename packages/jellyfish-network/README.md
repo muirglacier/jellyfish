@@ -1,3 +1,3 @@
-# @defichain/jellyfish-network
+# @muirglacier/jellyfish-network
 
 DeFi Blockchain various network configuration for main, net and regtest.

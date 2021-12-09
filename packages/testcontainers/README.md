@@ -1,15 +1,15 @@
-# @defichain/testcontainers
+# @muirglacier/testcontainers
 
 Similar to [testcontainers](https://www.testcontainers.org/) in the Java ecosystem, this package provides a lightweight,
 throwaway instances of `regtest`, `testnet` or `mainnet` provisioned automatically in Docker container.
-`@defichain/testcontainers` encapsulate on top of `defi/defichain:v1.x` and directly interface with the Docker REST API.
+`@muirglacier/testcontainers` encapsulate on top of `defi/defichain:v1.x` and directly interface with the Docker REST API.
 
-With `@defichain/testcontainers`, it allows the JS developers to:
+With `@muirglacier/testcontainers`, it allows the JS developers to:
 
 1. End-to-end test their application without hassle of setting up the toolchain
 2. Run parallel tests as port number and container are dynamically generated on demand
 3. Supercharge our CI workflow; run locally, anywhere or CI (as long as it has Docker installed)
-4. Supercharge your `@defichain/jellyfish-*` implementation with 100% day 1 compatibility (mono repo!)
+4. Supercharge your `@muirglacier/jellyfish-*` implementation with 100% day 1 compatibility (mono repo!)
 5. Bring quality and reliability to dApps on the DeFiChain JS ecosystem
 
 ## Usage Example
@@ -18,7 +18,7 @@ Install as dev only as you don't need this in production. **Please don't use thi
 
 ```shell
 npm i defichain
-npm i -D @defichain/testcontainers
+npm i -D @muirglacier/testcontainers
 ```
 
 Use your favourite jest runner and start building dApps!
@@ -26,7 +26,7 @@ Use your favourite jest runner and start building dApps!
 ### Basic `RegTestContainer` setup
 
 ```js
-import { RegTestDocker } from '@defichain/testcontainers'
+import { RegTestDocker } from '@muirglacier/testcontainers'
 
 describe('reg test container', () => {
   const container = new RegTestContainer()
@@ -51,7 +51,7 @@ describe('reg test container', () => {
 ### `MasterNodeRegTestContainer` with auto-minting
 
 ```js
-import { MasterNodeRegTestContainer } from '@defichain/testcontainers'
+import { MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
 import waitForExpect from "wait-for-expect";
 
 describe('master node pos minting', () => {

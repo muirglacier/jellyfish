@@ -1,4 +1,4 @@
-# @defichain/jellyfish-transaction-builder
+# @muirglacier/jellyfish-transaction-builder
 
 While jellyfish-transaction provides a dead simple, modern, stateless raw transaction builder for DeFi. Constructing a
 trust-less crypto transaction from scratch still has certain complexity as with the nature of blockchain technologies.
@@ -14,6 +14,6 @@ What can `jellyfish-transaction-builder` do?
 
 ## Testing
 
-For testing accuracy and convenience. All implementations must be e2e tested on `@defichain/testcontainers`. Due to the
-complexity of testing, `@defichain/jellyfish-api-jsonrpc` and `@defichain/testing` is included in `devDependencies` for
+For testing accuracy and convenience. All implementations must be e2e tested on `@muirglacier/testcontainers`. Due to the
+complexity of testing, `@muirglacier/jellyfish-api-jsonrpc` and `@muirglacier/testing` is included in `devDependencies` for
 setting up and tearing down test fixtures.

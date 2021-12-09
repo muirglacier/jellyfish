@@ -37,7 +37,7 @@ export default function Home (): JSX.Element {
             compatibility.
           </Feature>
           <Feature title="Easy to Test">
-            <code>@defichain/testcontainers</code> provides a lightweight, throwaway instances of regtest provisioned
+            <code>@muirglacier/testcontainers</code> provides a lightweight, throwaway instances of regtest provisioned
             automatically in a Docker container.
           </Feature>
         </section>

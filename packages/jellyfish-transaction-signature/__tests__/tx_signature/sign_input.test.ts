@@ -1,6 +1,6 @@
 import BigNumber from 'bignumber.js'
-import { OP_CODES, OP_PUSHDATA, SIGHASH, Transaction, Vout } from '@defichain/jellyfish-transaction'
-import { Elliptic, HASH160, SHA256 } from '@defichain/jellyfish-crypto'
+import { OP_CODES, OP_PUSHDATA, SIGHASH, Transaction, Vout } from '@muirglacier/jellyfish-transaction'
+import { Elliptic, HASH160, SHA256 } from '@muirglacier/jellyfish-crypto'
 import { TransactionSigner } from '../../src'
 
 describe('sign single input', () => {

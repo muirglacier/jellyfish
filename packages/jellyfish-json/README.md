@@ -1,4 +1,4 @@
-# @defichain/jellyfish-json
+# @muirglacier/jellyfish-json
 
 `JellyfishJSON` allows parsing of JSON with `'lossless'`, `'bignumber'` and `'number'` numeric precision.
 

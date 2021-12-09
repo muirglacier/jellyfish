@@ -1,5 +1,5 @@
-import { Bs58 } from '@defichain/jellyfish-crypto'
-import { Network } from '@defichain/jellyfish-network'
+import { Bs58 } from '@muirglacier/jellyfish-crypto'
+import { Network } from '@muirglacier/jellyfish-network'
 import { Address, AddressTypeDeprecated, Validator } from './address'
 
 export abstract class Base58Address extends Address {

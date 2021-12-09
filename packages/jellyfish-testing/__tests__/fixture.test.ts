@@ -1,6 +1,6 @@
 import BigNumber from 'bignumber.js'
-import { MasterNodeRegTestContainer } from '@defichain/testcontainers'
-import { Testing } from '@defichain/jellyfish-testing'
+import { MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
+import { Testing } from '@muirglacier/jellyfish-testing'
 
 const container = new MasterNodeRegTestContainer()
 const testing = Testing.create(container)

@@ -1,5 +1,5 @@
-import { blockchain } from '@defichain/jellyfish-api-core'
-import { MasterNodeRegTestContainer } from '@defichain/testcontainers'
+import { blockchain } from '@muirglacier/jellyfish-api-core'
+import { MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
 import { ContainerAdapterClient } from '../../container_adapter_client'
 
 describe('setMockTime', () => {

@@ -1,7 +1,7 @@
 import { LoanMasterNodeRegTestContainer } from './loan_container'
 import BigNumber from 'bignumber.js'
-import { Testing } from '@defichain/jellyfish-testing'
-import { RpcApiError } from '@defichain/jellyfish-api-core'
+import { Testing } from '@muirglacier/jellyfish-testing'
+import { RpcApiError } from '@muirglacier/jellyfish-api-core'
 
 describe('Loan getInterest', () => {
   const container = new LoanMasterNodeRegTestContainer()

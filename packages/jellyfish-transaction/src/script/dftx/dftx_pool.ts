@@ -1,5 +1,5 @@
 import BigNumber from 'bignumber.js'
-import { BufferComposer, ComposableBuffer, readVarUInt, writeVarUInt } from '@defichain/jellyfish-buffer'
+import { BufferComposer, ComposableBuffer, readVarUInt, writeVarUInt } from '@muirglacier/jellyfish-buffer'
 import { Script } from '../../tx'
 import { CScript } from '../../tx_composer'
 import { SmartBuffer } from 'smart-buffer'

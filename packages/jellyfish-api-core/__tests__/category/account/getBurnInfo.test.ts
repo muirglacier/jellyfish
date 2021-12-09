@@ -1,6 +1,6 @@
 import BigNumber from 'bignumber.js'
-import { MasterNodeRegTestContainer } from '@defichain/testcontainers'
-import { createToken } from '@defichain/testing'
+import { MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
+import { createToken } from '@muirglacier/testing'
 import { ContainerAdapterClient } from '../../container_adapter_client'
 
 const container = new MasterNodeRegTestContainer()

@@ -1,4 +1,4 @@
-import { getNetwork, NetworkName } from '@defichain/jellyfish-network'
+import { getNetwork, NetworkName } from '@muirglacier/jellyfish-network'
 import { Address, AddressTypeDeprecated, UnknownTypeAddress } from './address'
 import { Base58Address } from './base58_address'
 import { Bech32Address } from './bech32_address'

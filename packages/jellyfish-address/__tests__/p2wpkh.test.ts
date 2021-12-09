@@ -1,6 +1,6 @@
-import { MainNet, RegTest, TestNet } from '@defichain/jellyfish-network'
-import { OP_CODES } from '@defichain/jellyfish-transaction'
-import { RegTestContainer } from '@defichain/testcontainers'
+import { MainNet, RegTest, TestNet } from '@muirglacier/jellyfish-network'
+import { OP_CODES } from '@muirglacier/jellyfish-transaction'
+import { RegTestContainer } from '@muirglacier/testcontainers'
 import { DeFiAddress, P2WPKH } from '../src'
 
 describe('P2WPKH', () => {

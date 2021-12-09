@@ -1,6 +1,6 @@
-import { WIF } from '@defichain/jellyfish-crypto'
+import { WIF } from '@muirglacier/jellyfish-crypto'
 import { BigNumber } from 'bignumber.js'
-import { GenesisKeys } from '@defichain/testcontainers'
+import { GenesisKeys } from '@muirglacier/testcontainers'
 import { WalletClassic } from '../src'
 
 describe('WalletClassic', () => {

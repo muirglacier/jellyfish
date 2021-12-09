@@ -1,5 +1,5 @@
 import { Testing } from './index'
-import { poolpair } from '@defichain/jellyfish-api-core'
+import { poolpair } from '@muirglacier/jellyfish-api-core'
 
 /**
  * TestingFixture setup complex fixtures for jellyfish testing.

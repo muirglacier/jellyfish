@@ -1,15 +1,15 @@
-import { DeFiDRpcError, GenesisKeys } from '@defichain/testcontainers'
+import { DeFiDRpcError, GenesisKeys } from '@muirglacier/testcontainers'
 import { getProviders, MockProviders } from '../provider.mock'
 import { P2WPKHTransactionBuilder } from '../../src'
 import { fundEllipticPair, sendTransaction } from '../test.utils'
-import { WIF } from '@defichain/jellyfish-crypto'
+import { WIF } from '@muirglacier/jellyfish-crypto'
 import BigNumber from 'bignumber.js'
 import { LoanMasterNodeRegTestContainer } from './loan_container'
-import { TestingGroup } from '@defichain/jellyfish-testing'
-import { RegTest } from '@defichain/jellyfish-network'
-import { DecodedAddress, fromAddress, fromScript } from '@defichain/jellyfish-address'
-import { VaultActive, VaultLiquidation } from '@defichain/jellyfish-api-core/src/category/loan'
-import { Script } from '@defichain/jellyfish-transaction/src/tx'
+import { TestingGroup } from '@muirglacier/jellyfish-testing'
+import { RegTest } from '@muirglacier/jellyfish-network'
+import { DecodedAddress, fromAddress, fromScript } from '@muirglacier/jellyfish-address'
+import { VaultActive, VaultLiquidation } from '@muirglacier/jellyfish-api-core/src/category/loan'
+import { Script } from '@muirglacier/jellyfish-transaction/src/tx'
 
 describe('loans.withdrawFromVault', () => {
   const tGroup = TestingGroup.create(3, i => new LoanMasterNodeRegTestContainer(GenesisKeys[i]))

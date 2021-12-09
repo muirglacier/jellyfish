@@ -1,5 +1,5 @@
 import { WalletAccount, WalletAccountProvider, WalletEllipticPair } from '../src'
-import { Network, RegTest } from '@defichain/jellyfish-network'
+import { Network, RegTest } from '@muirglacier/jellyfish-network'
 
 /**
  * This is for testing only, please don't use this for anything else.

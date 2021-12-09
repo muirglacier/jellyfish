@@ -1,8 +1,8 @@
-import { ContainerGroup, DeFiDRpcError, GenesisKeys, MasterNodeRegTestContainer } from '@defichain/testcontainers'
+import { ContainerGroup, DeFiDRpcError, GenesisKeys, MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
 import { ContainerAdapterClient } from '../../container_adapter_client'
 import { MasternodeState, MasternodeTimeLock } from '../../../src/category/masternode'
 import { AddressType } from '../../../src/category/wallet'
-import { RpcApiError } from '@defichain/jellyfish-api-core'
+import { RpcApiError } from '@muirglacier/jellyfish-api-core'
 
 describe('Masternode', () => {
   const container = new MasterNodeRegTestContainer()

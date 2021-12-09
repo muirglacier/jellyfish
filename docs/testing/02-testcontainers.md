@@ -9,10 +9,10 @@ slug: /testcontainers
 
 Similar to [testcontainers](https://www.testcontainers.org/) in the Java ecosystem, this package provides a lightweight,
 throwaway instances of **regtest**, **testnet** or **mainnet** provisioned automatically in a Docker container.
-`@defichain/testcontainers` encapsulate on top of the `defi/defichain` Docker image and directly interface with the
+`@muirglacier/testcontainers` encapsulate on top of the `defi/defichain` Docker image and directly interface with the
 Docker REST API on your localhost.
 
-With `@defichain/testcontainers`, it allows DeFiChain JS developers to:
+With `@muirglacier/testcontainers`, it allows DeFiChain JS developers to:
 
 1. End-to-end test applications without the hassle of setting up toolchain
 2. Run parallel tests as port number and container are dynamically generated on demand
@@ -25,7 +25,7 @@ Install as dev only as you don't need this in production. **Please don't use thi
 
 ```shell
 npm i defichain
-npm i -D @defichain/testcontainers
+npm i -D @muirglacier/testcontainers
 ```
 
 ## Containers
@@ -37,7 +37,7 @@ npm i -D @defichain/testcontainers
 ### RegTest
 
 ```ts
-import {RegTestContainer} from '@defichain/testcontainers'
+import {RegTestContainer} from '@muirglacier/testcontainers'
 
 describe('reg test container', () => {
   const container = new RegTestContainer()
@@ -66,7 +66,7 @@ second. Additionally, you can use `waitForWalletCoinbaseMaturity` to wait for co
 to be spendable.
 
 ```js
-import {MasterNodeRegTestContainer} from '@defichain/testcontainers'
+import {MasterNodeRegTestContainer} from '@muirglacier/testcontainers'
 import waitForExpect from "wait-for-expect";
 
 describe('master node pos minting', () => {
@@ -128,12 +128,12 @@ const newAddress = await container.getNewAddress()
 
 ## Using with Full Node APIs
 
-Instead of connecting to a full node binary, you can spin up containers with `@defichain/testcontainers`.
+Instead of connecting to a full node binary, you can spin up containers with `@muirglacier/testcontainers`.
 This allows you to run parallelizable and reproducible unit test with the strongly-typed jellyfish Full Node APIs.
 
 ```js
-import { MasterNodeRegTestContainer } from '@defichain/testcontainers'
-import { JsonRpcClient } from '@defichain/jellyfish-api-jsonrpc'
+import { MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
+import { JsonRpcClient } from '@muirglacier/jellyfish-api-jsonrpc'
 
 // Setting up the container & client
 const container = new MasterNodeRegTestContainer()

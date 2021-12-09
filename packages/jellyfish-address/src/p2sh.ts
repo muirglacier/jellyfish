@@ -1,6 +1,6 @@
-import { Bs58 } from '@defichain/jellyfish-crypto'
-import { getNetwork, Network, NetworkName } from '@defichain/jellyfish-network'
-import { Script, OP_CODES, OP_PUSHDATA } from '@defichain/jellyfish-transaction'
+import { Bs58 } from '@muirglacier/jellyfish-crypto'
+import { getNetwork, Network, NetworkName } from '@muirglacier/jellyfish-network'
+import { Script, OP_CODES, OP_PUSHDATA } from '@muirglacier/jellyfish-transaction'
 
 import { Base58Address } from './base58_address'
 

@@ -1,4 +1,4 @@
-import { LoanMasterNodeRegTestContainer as LoanContainer } from '@defichain/testcontainers'
+import { LoanMasterNodeRegTestContainer as LoanContainer } from '@muirglacier/testcontainers'
 
 /**
  * @deprecated use MasterNodeRegTestContainer instead

@@ -1,5 +1,5 @@
-import { MasterNodeRegTestContainer } from '@defichain/testcontainers'
-import { Elliptic } from '@defichain/jellyfish-crypto'
+import { MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
+import { Elliptic } from '@muirglacier/jellyfish-crypto'
 import {
   createSignedTxnHex
 } from '../src'

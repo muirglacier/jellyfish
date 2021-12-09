@@ -1,5 +1,5 @@
-import { fromAddress } from '@defichain/jellyfish-address'
-import { NetworkName } from '@defichain/jellyfish-network'
+import { fromAddress } from '@muirglacier/jellyfish-address'
+import { NetworkName } from '@muirglacier/jellyfish-network'
 
 it('should fail if invalid address "invalid address"', () => {
   const address = 'invalid address'

@@ -1,14 +1,14 @@
-import { DeFiDRpcError, GenesisKeys } from '@defichain/testcontainers'
-import { Testing } from '@defichain/jellyfish-testing'
+import { DeFiDRpcError, GenesisKeys } from '@muirglacier/testcontainers'
+import { Testing } from '@muirglacier/jellyfish-testing'
 import { getProviders, MockProviders } from '../provider.mock'
 import { P2WPKHTransactionBuilder } from '../../src'
 import { calculateTxid, fundEllipticPair, sendTransaction } from '../test.utils'
-import { CreateCfp, OP_CODES } from '@defichain/jellyfish-transaction'
-import { WIF } from '@defichain/jellyfish-crypto'
+import { CreateCfp, OP_CODES } from '@muirglacier/jellyfish-transaction'
+import { WIF } from '@muirglacier/jellyfish-crypto'
 import BigNumber from 'bignumber.js'
 import { GovernanceMasterNodeRegTestContainer } from '../../../jellyfish-api-core/__tests__/category/governance/governance_container'
-import { governance } from '@defichain/jellyfish-api-core'
-import { RegTest } from '@defichain/jellyfish-network'
+import { governance } from '@muirglacier/jellyfish-api-core'
+import { RegTest } from '@muirglacier/jellyfish-network'
 
 describe('createCfp', () => {
   let providers: MockProviders

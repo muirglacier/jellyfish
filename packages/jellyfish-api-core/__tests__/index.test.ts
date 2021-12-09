@@ -1,6 +1,6 @@
 import { ApiClient, ClientApiError, mining } from '../src'
 import { ContainerAdapterClient } from './container_adapter_client'
-import { RegTestContainer } from '@defichain/testcontainers'
+import { RegTestContainer } from '@muirglacier/testcontainers'
 
 class TestClient extends ApiClient {
   async call<T> (method: string, payload: any[]): Promise<T> {

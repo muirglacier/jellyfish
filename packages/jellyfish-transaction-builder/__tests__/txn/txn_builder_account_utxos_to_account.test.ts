@@ -1,13 +1,13 @@
 import BigNumber from 'bignumber.js'
-import { Bech32, HASH160 } from '@defichain/jellyfish-crypto'
-import { OP_CODES, UtxosToAccount } from '@defichain/jellyfish-transaction'
-import { MasterNodeRegTestContainer } from '@defichain/testcontainers'
-import { JsonRpcClient } from '@defichain/jellyfish-api-jsonrpc'
+import { Bech32, HASH160 } from '@muirglacier/jellyfish-crypto'
+import { OP_CODES, UtxosToAccount } from '@muirglacier/jellyfish-transaction'
+import { MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
+import { JsonRpcClient } from '@muirglacier/jellyfish-api-jsonrpc'
 import { getProviders, MockProviders } from '../provider.mock'
 import { P2WPKHTransactionBuilder } from '../../src'
 import { findOut, fundEllipticPair, sendTransaction } from '../test.utils'
-import { P2WPKH } from '@defichain/jellyfish-address'
-import { RegTest } from '@defichain/jellyfish-network'
+import { P2WPKH } from '@muirglacier/jellyfish-address'
+import { RegTest } from '@muirglacier/jellyfish-network'
 
 const container = new MasterNodeRegTestContainer()
 let providers: MockProviders

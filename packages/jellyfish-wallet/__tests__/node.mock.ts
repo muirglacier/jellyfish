@@ -1,7 +1,7 @@
 import { WalletHdNode, WalletHdNodeProvider } from '../src'
-import { SIGHASH, Transaction, TransactionSegWit, Vout } from '@defichain/jellyfish-transaction'
-import { TransactionSigner } from '@defichain/jellyfish-transaction-signature'
-import { Elliptic, EllipticPair } from '@defichain/jellyfish-crypto'
+import { SIGHASH, Transaction, TransactionSegWit, Vout } from '@muirglacier/jellyfish-transaction'
+import { TransactionSigner } from '@muirglacier/jellyfish-transaction-signature'
+import { Elliptic, EllipticPair } from '@muirglacier/jellyfish-crypto'
 
 /**
  * This is for testing only, please don't use this for anything else.

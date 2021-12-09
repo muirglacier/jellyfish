@@ -1,5 +1,5 @@
 import { ContainerGroup, MasterNodeRegTestContainer } from '../../../src'
-import { RegTestFoundationKeys } from '@defichain/jellyfish-network'
+import { RegTestFoundationKeys } from '@muirglacier/jellyfish-network'
 
 const group = new ContainerGroup([
   new MasterNodeRegTestContainer(RegTestFoundationKeys[0]),

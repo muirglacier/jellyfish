@@ -1,5 +1,5 @@
-import { MasterNodeRegTestContainer } from '@defichain/testcontainers'
-import { Testing } from '@defichain/jellyfish-testing'
+import { MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
+import { Testing } from '@muirglacier/jellyfish-testing'
 
 const testing = Testing.create(new MasterNodeRegTestContainer())
 

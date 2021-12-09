@@ -7,7 +7,7 @@ import {
   Vin,
   Vout,
   Witness
-} from '@defichain/jellyfish-transaction'
+} from '@muirglacier/jellyfish-transaction'
 
 describe('dust amount', () => {
   it('0.00001 should be dust amount', () => {

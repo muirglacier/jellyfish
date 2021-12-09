@@ -1,4 +1,4 @@
-import { RegTestContainer } from '@defichain/testcontainers'
+import { RegTestContainer } from '@muirglacier/testcontainers'
 
 /**
  * Create a new address

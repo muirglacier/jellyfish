@@ -1,5 +1,5 @@
 import randomBytes from 'randombytes'
-import { AES256, dSHA256 } from '@defichain/jellyfish-crypto'
+import { AES256, dSHA256 } from '@muirglacier/jellyfish-crypto'
 import { Scrypt } from './scrypt'
 
 export class EncryptedData {

@@ -1,9 +1,9 @@
-import { GenesisKeys, MasterNodeRegTestContainer } from '@defichain/testcontainers'
+import { GenesisKeys, MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
 import { getProviders, MockProviders } from '../provider.mock'
 import { P2WPKHTransactionBuilder } from '../../src'
 import { calculateTxid, fundEllipticPair, sendTransaction } from '../test.utils'
-import { WIF } from '@defichain/jellyfish-crypto'
-import { RegTest } from '@defichain/jellyfish-network'
+import { WIF } from '@muirglacier/jellyfish-crypto'
+import { RegTest } from '@muirglacier/jellyfish-network'
 
 describe('appoint oracle', () => {
   const container = new MasterNodeRegTestContainer()

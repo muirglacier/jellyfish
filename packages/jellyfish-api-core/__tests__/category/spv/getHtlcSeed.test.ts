@@ -1,5 +1,5 @@
-import { /** GenesisKeys, */ MasterNodeRegTestContainer /** ContainerGroup */ } from '@defichain/testcontainers'
-import { RpcApiError } from '@defichain/jellyfish-api-core'
+import { /** GenesisKeys, */ MasterNodeRegTestContainer /** ContainerGroup */ } from '@muirglacier/testcontainers'
+import { RpcApiError } from '@muirglacier/jellyfish-api-core'
 import { ContainerAdapterClient } from '../../container_adapter_client'
 
 describe('Spv', () => {

@@ -1,5 +1,5 @@
 import { ContainerAdapterClient } from '../../container_adapter_client'
-import { MasterNodeRegTestContainer } from '@defichain/testcontainers'
+import { MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
 import {
   ExtHTLC,
   HTLC,
@@ -17,7 +17,7 @@ import {
 } from '../../../src/category/icxorderbook'
 import BigNumber from 'bignumber.js'
 import { accountBTC, accountDFI, ICXSetup, idDFI, symbolDFI } from './icx_setup'
-import { RpcApiError } from '@defichain/jellyfish-api-core'
+import { RpcApiError } from '@muirglacier/jellyfish-api-core'
 
 describe('ICXOrderBook.submitDFCHTLC', () => {
   const container = new MasterNodeRegTestContainer()

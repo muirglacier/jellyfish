@@ -5,7 +5,7 @@ import {
   CTransactionSegWit,
   Transaction, TransactionSegWit,
   Witness
-} from '@defichain/jellyfish-transaction'
+} from '@muirglacier/jellyfish-transaction'
 
 /**
  * Consider dust if output is < 0.00003000

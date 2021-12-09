@@ -1,5 +1,5 @@
-import { Transaction, TransactionSegWit, Vout } from '@defichain/jellyfish-transaction'
-import { EllipticPair } from '@defichain/jellyfish-crypto'
+import { Transaction, TransactionSegWit, Vout } from '@muirglacier/jellyfish-transaction'
+import { EllipticPair } from '@muirglacier/jellyfish-crypto'
 
 /**
  * WalletEllipticPair extends EllipticPair with additional interface to sign transaction.

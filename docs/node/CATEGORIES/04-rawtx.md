@@ -6,7 +6,7 @@ slug: /jellyfish/api/rawtx
 ---
 
 ```js
-import {Client} from '@defichain/jellyfish'
+import {Client} from '@muirglacier/jellyfish'
 const client = new Client()
 
 // Using client.rawtx.

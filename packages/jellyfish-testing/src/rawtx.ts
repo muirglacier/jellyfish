@@ -1,8 +1,8 @@
 import BigNumber from 'bignumber.js'
-import { MasterNodeRegTestContainer } from '@defichain/testcontainers'
-import { JsonRpcClient } from '@defichain/jellyfish-api-jsonrpc'
-import { Bech32, Elliptic, EllipticPair, HRP, WIF } from '@defichain/jellyfish-crypto'
-import { RegTest } from '@defichain/jellyfish-network'
+import { MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
+import { JsonRpcClient } from '@muirglacier/jellyfish-api-jsonrpc'
+import { Bech32, Elliptic, EllipticPair, HRP, WIF } from '@muirglacier/jellyfish-crypto'
+import { RegTest } from '@muirglacier/jellyfish-network'
 
 export class TestingRawTx {
   constructor (

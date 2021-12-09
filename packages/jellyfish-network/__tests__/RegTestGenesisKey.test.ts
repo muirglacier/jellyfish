@@ -1,5 +1,5 @@
-import { RegTestContainer } from '@defichain/testcontainers'
-import { RegTestFoundationKeys } from '@defichain/jellyfish-network'
+import { RegTestContainer } from '@muirglacier/testcontainers'
+import { RegTestFoundationKeys } from '@muirglacier/jellyfish-network'
 
 describe('genesis keys', () => {
   const container = new RegTestContainer()

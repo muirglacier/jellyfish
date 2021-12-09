@@ -1,8 +1,8 @@
 import { TestAccountProvider } from './account.mock'
 import { TestNodeProvider } from './node.mock'
 import { WalletAccount } from '../src'
-import { OP_CODES } from '@defichain/jellyfish-transaction'
-import { RegTest } from '@defichain/jellyfish-network'
+import { OP_CODES } from '@muirglacier/jellyfish-transaction'
+import { RegTest } from '@muirglacier/jellyfish-network'
 
 describe('provide different account', () => {
   const nodeProvider = new TestNodeProvider()

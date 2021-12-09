@@ -1,6 +1,6 @@
 import { JsonRpcClient } from '../src'
-import { RegTestContainer } from '@defichain/testcontainers'
-import { ApiError, ClientApiError, RpcApiError } from '@defichain/jellyfish-api-core'
+import { RegTestContainer } from '@muirglacier/testcontainers'
+import { ApiError, ClientApiError, RpcApiError } from '@muirglacier/jellyfish-api-core'
 import nock from 'nock'
 
 describe('JSON-RPC 1.0 specification', () => {
