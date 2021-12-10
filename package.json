@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "muirglacier",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Acollection of TypeScript + JavaScript tools and libraries for DeFi Blockchain developers to build decentralized finance for Bitcoin",
   "repository": "muirglacier/jellyfish",
   "bugs": "https://github.com/muirglacier/jellyfish/issues",
