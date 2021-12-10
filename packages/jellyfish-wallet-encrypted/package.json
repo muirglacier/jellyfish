@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "@muirglacier/jellyfish-wallet-encrypted",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "A collection of TypeScript + JavaScript tools and libraries for DeFi Blockchain developers to build decentralized finance for Bitcoin",
   "keywords": [
     "DeFiChain",
@@ -22,7 +22,7 @@
     "build": "tsc -b ./tsconfig.build.json"
   },
   "dependencies": {
-    "@muirglacier/jellyfish-wallet-mnemonic": "0.1.3",
+    "@muirglacier/jellyfish-wallet-mnemonic": "0.1.4",
     "scrypt-js": "^3.0.1"
   }
 }
