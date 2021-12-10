@@ -16,7 +16,7 @@ import { TxnBuilderError, TxnBuilderErrorType } from './txn_builder_error'
 import { EllipticPair } from '@muirglacier/jellyfish-crypto'
 import { Network } from '@muirglacier/jellyfish-network'
 
-const MAX_FEE_RATE = new BigNumber('1')
+const MAX_FEE_RATE = new BigNumber('0.5')
 
 /**
  * Transaction builder for P2WPKH inputs.
