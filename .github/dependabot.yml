@@ -10,7 +10,7 @@ updates:
       - dependency-name: "defich"
       - dependency-name: "defichain"
       - dependency-name: "@defich/*"
-      - dependency-name: "@defichain/*"
+      - dependency-name: "@muirglacier/*"
     versioning-strategy: 'increase'
 
   - package-ecosystem: "github-actions"
